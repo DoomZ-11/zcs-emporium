@@ -1,0 +1,788 @@
+[
+  {
+    "title": "2Doom",
+    "icon": "icons/2doom.png",
+    "file": "games/2doom.html",
+    "featured": false
+  },
+  {
+    "title": "3Dash",
+    "icon": "icons/3dash.png",
+    "file": "games/3dash.html",
+    "featured": false
+  },
+  {
+    "title": "Windows 3D Space Pinball",
+    "icon": "icons/3dpinballspacecadet.png",
+    "file": "games/3dpinballspacecadet.html",
+    "featured": false
+  },
+  {
+    "title": "8-Ball Classic",
+    "icon": "icons/8ballclassic.png",
+    "file": "games/8ballclassic.html",
+    "featured": false
+  },
+  {
+    "title": "10 Minutes 'til Dawn",
+    "icon": "icons/10minutestildawn.png",
+    "file": "games/10minutestildawn.html",
+    "featured": false
+  },
+  {
+    "title": "20 Small Mazes",
+    "icon": "icons/20smallmazes.png",
+    "file": "games/20smallmazes.html",
+    "featured": false
+  },
+  {
+    "title": "99 Balls",
+    "icon": "icons/99balls.png",
+    "file": "games/99balls.html",
+    "featured": false
+  },
+  {
+    "title": "500 Caliber Contractz",
+    "icon": "icons/500calibercontractz.png",
+    "file": "games/500calibercontractz.html",
+    "featured": false
+  },
+  {
+    "title": "2048",
+    "icon": "icons/2048.png",
+    "file": "games/2048.html",
+    "featured": false
+  },
+  {
+    "title": "9007199254740992",
+    "icon": "icons/9007199254740992.png",
+    "file": "games/9007199254740992.html",
+    "featured": false
+  },
+  {
+    "title": "A Dark Room",
+    "icon": "icons/adarkroom.png",
+    "file": "games/adarkroom.html",
+    "featured": false
+  },
+  {
+    "title": "A Day in the Office",
+    "icon": "icons/adayintheoffice.png",
+    "file": "games/adayintheoffice.html",
+    "featured": false
+  },
+  {
+    "title": "A Dance of Fire and Ice",
+    "icon": "icons/adofai.png",
+    "file": "games/adofai.html",
+    "featured": false
+  },
+  {
+    "title": "Adventure Capatalist",
+    "icon": "icons/adventurecapatalist.png",
+    "file": "games/adventurecapatalist.html",
+    "featured": false
+  },
+  {
+    "title": "Ages of Conflict",
+    "icon": "icons/agesofconflict.png",
+    "file": "games/agesofconflict.html",
+    "featured": false
+  },
+  {
+    "title": "Airline Tycoon",
+    "icon": "icons/airlinetycoonidle.png",
+    "file": "games/airlinetycoonidle.html",
+    "featured": false
+  },
+  {
+    "title": "Allocation",
+    "icon": "icons/allocation.png",
+    "file": "games/allocation.html",
+    "featured": false
+  },
+  {
+    "title": "Amorphous",
+    "icon": "icons/amorphous.png",
+    "file": "games/amorphous.html",
+    "featured": false
+  },
+  {
+    "title": "Ancient Sins",
+    "icon": "icons/ancientsins.png",
+    "file": "games/ancientsins.html",
+    "featured": false
+  },
+  {
+    "title": "Anti-matter Dimensions",
+    "icon": "icons/antimatterdimensions.png",
+    "file": "games/antimatterdimensions.html",
+    "featured": false
+  },
+  {
+    "title": "Ascent",
+    "icon": "icons/ascent.png",
+    "file": "games/ascent.html",
+    "featured": false
+  },
+  {
+    "title": "Asteroids",
+    "icon": "icons/asteroids.png",
+    "file": "games/asteroids.html",
+    "featured": false
+  },
+  {
+    "title": "Babel Tower",
+    "icon": "icons/babeltower.png",
+    "file": "games/babeltower.html",
+    "featured": false
+  },
+  {
+    "title": "Bad Piggies",
+    "icon": "icons/badpiggies.png",
+    "file": "games/badpiggies.html",
+    "featured": false
+  },
+  {
+    "title": "Baldi's Basics",
+    "icon": "icons/baldisbasics.png",
+    "file": "games/baldisbasics.html",
+    "featured": false
+  },
+  {
+    "title": "Basket Random",
+    "icon": "icons/basketrandom.png",
+    "file": "games/basketrandom.html",
+    "featured": false
+  },
+  {
+    "title": "Big Ice Tower vs. Tiny Square",
+    "icon": "icons/bigicetowertinysquare.png",
+    "file": "games/bigicetowertinysquare.html",
+    "featured": false
+  },
+  {
+    "title": "Big Neon Tower vs. Tiny Square",
+    "icon": "icons/bigneontowertinysquare.png",
+    "file": "games/bigneontowertinysquare.html",
+    "featured": false
+  },
+  {
+    "title": "Big Tower vs. Tiny Square 2",
+    "icon": "icons/bigtowertinysquare2.png",
+    "file": "games/bigtowertinysquare2.html",
+    "featured": false
+  },
+  {
+    "title": "Black Jack",
+    "icon": "icons/blackjack.png",
+    "file": "games/blackjack.html",
+    "featured": false
+  },
+  {
+    "title": "Blastronaut",
+    "icon": "icons/blastronaut.png",
+    "file": "games/blastronaut.html",
+    "featured": false
+  },
+  {
+    "title": "Blockblast",
+    "icon": "icons/blockblast.png",
+    "file": "games/blockblast.html",
+    "featured": false
+  },
+  {
+    "title": "Boxing Random",
+    "icon": "icons/boxingrandom.png",
+    "file": "games/boxingrandom.html",
+    "featured": false
+  },
+  {
+    "title": "Captchaware",
+    "icon": "icons/captchaware.png",
+    "file": "games/captchaware.html",
+    "featured": true
+  },
+  {
+    "title": "Castle Wars Modern",
+    "icon": "icons/castlewarsmodern.png",
+    "file": "games/castlewarsmodern.html",
+    "featured": false
+  },
+  {
+    "title": "Cat Mario",
+    "icon": "icons/catmario.png",
+    "file": "games/catmario.html",
+    "featured": true
+  },
+  {
+    "title": "Cave Story",
+    "icon": "icons/cavestory.png",
+    "file": "games/cavestory.html",
+    "featured": true
+  },
+  {
+    "title": "PICO-8 Celeste",
+    "icon": "icons/celeste.png",
+    "file": "games/celeste.html",
+    "featured": false
+  },
+  {
+    "title": "Cell Machine",
+    "icon": "icons/cellmachine.png",
+    "file": "games/cellmachine.html",
+    "featured": false
+  },
+  {
+    "title": "Cheese is the Reason",
+    "icon": "icons/cheeseisthereason.png",
+    "file": "games/cheeseisthereason.html",
+    "featured": false
+  },
+  {
+    "title": "Cheese Rolling",
+    "icon": "icons/cheeserolling.png",
+    "file": "games/cheeserolling.html",
+    "featured": true
+  },
+  {
+    "title": "Chess Classic",
+    "icon": "icons/chessclassic.png",
+    "file": "games/chessclassic.html",
+    "featured": false
+  },
+  {
+    "title": "CircloO2",
+    "icon": "icons/circloo2.png",
+    "file": "games/circloo2.html",
+    "featured": false
+  },
+  {
+    "title": "Coffee Maker",
+    "icon": "icons/coffeemaker.png",
+    "file": "games/coffeemaker.html",
+    "featured": false
+  },
+  {
+    "title": "Cookie Clicker",
+    "icon": "icons/cookieclicker.png",
+    "file": "games/cookieclicker.html",
+    "featured": true
+  },
+  {
+    "title": "Crank It!",
+    "icon": "icons/crankit.png",
+    "file": "games/crankit.html",
+    "featured": true
+  },
+  {
+    "title": "Crazy Cattle 3D",
+    "icon": "icons/crazycattle3d.png",
+    "file": "games/crazycattle3d.html",
+    "featured": true
+  },
+  {
+    "title": "Crossy Road",
+    "icon": "icons/crossyroad.png",
+    "file": "games/crossyroad.html",
+    "featured": false
+  },
+  {
+    "title": "Deepest Sword",
+    "icon": "icons/deepestsword.png",
+    "file": "games/deepestsword.html",
+    "featured": false
+  },
+  {
+    "title": "Duck Life Battle",
+    "icon": "icons/ducklifebattle.png",
+    "file": "games/ducklifebattle.html",
+    "featured": false
+  },
+  {
+    "title": "Duke Nukem 2",
+    "icon": "icons/dukenukem2.png",
+    "file": "games/dukenukem2.html",
+    "featured": false
+  },
+  {
+    "title": "Duke Nuken 3D",
+    "icon": "icons/dukenukem3d.png",
+    "file": "games/dukenukem3d.html",
+    "featured": true
+  },
+  {
+    "title": "Dumb Ways to Die",
+    "icon": "icons/dumbwaystodie.png",
+    "file": "games/dumbwaystodie.html",
+    "featured": false
+  },
+  {
+    "title": "Evil Glitch",
+    "icon": "icons/evilglitch.png",
+    "file": "games/evilglitch.html",
+    "featured": false
+  },
+  {
+    "title": "Evolution",
+    "icon": "icons/evolution.png",
+    "file": "games/evolution.html",
+    "featured": false
+  },
+  {
+    "title": "Fear Assessment",
+    "icon": "icons/fearassessment.png",
+    "file": "games/fearassessment.html",
+    "featured": false
+  },
+  {
+    "title": "Fears to Fathom Home Alone",
+    "icon": "icons/fearstofathomhomealone.png",
+    "file": "games/fearstofathomhomealone.html",
+    "featured": false
+  },
+  {
+    "title": "Feed the Void",
+    "icon": "icons/feedthevoid.png",
+    "file": "games/feedthevoid.html",
+    "featured": false
+  },
+  {
+    "title": "FNAF",
+    "icon": "icons/fnaf.png",
+    "file": "games/fnaf.html",
+    "featured": true
+  },
+  {
+    "title": "FNAF2",
+    "icon": "icons/fnaf2.png",
+    "file": "games/fnaf2.html",
+    "featured": true
+  },
+  {
+    "title": "FNAF3",
+    "icon": "icons/fnaf3.png",
+    "file": "games/fnaf3.html",
+    "featured": true
+  },
+  {
+    "title": "FNAF4",
+    "icon": "icons/fnaf4.png",
+    "file": "games/fnaf4.html",
+    "featured": true
+  },
+  {
+    "title": "Fruit Ninja",
+    "icon": "icons/fruitninja.png",
+    "file": "games/fruitninja.html",
+    "featured": false
+  },
+  {
+    "title": "Geometry Dash - Lite",
+    "icon": "icons/gdlite.png",
+    "file": "games/gdlite.html",
+    "featured": true
+  },
+  {
+    "title": "Geometry Dash - Subzero",
+    "icon": "icons/gdsubzero.png",
+    "file": "games/gdsubzero.html",
+    "featured": true
+  },
+  {
+    "title": "Geometry Dash - World",
+    "icon": "icons/gdworld.png",
+    "file": "games/gdworld.html",
+    "featured": true
+  },
+  {
+    "title": "George and the Printer",
+    "icon": "icons/georgeandtheprinter.png",
+    "file": "games/georgeandtheprinter.html",
+    "featured": false
+  },
+  {
+    "title": "Golf Battle",
+    "icon": "icons/golfbattle.png",
+    "file": "games/golfbattle.html",
+    "featured": false
+  },
+  {
+    "title": "Google Dino",
+    "icon": "icons/googledino.png",
+    "file": "games/googledino.html",
+    "featured": false
+  },
+  {
+    "title": "Granny",
+    "icon": "icons/granny.png",
+    "file": "games/granny.html",
+    "featured": false
+  },
+  {
+    "title": "Granny 2",
+    "icon": "icons/granny2.png",
+    "file": "games/granny2.html",
+    "featured": false
+  },
+  {
+    "title": "Gravity Mod",
+    "icon": "icons/gravitymod.png",
+    "file": "games/gravitymod.html",
+    "featured": false
+  },
+  {
+    "title": "GunKnight",
+    "icon": "icons/gunknight.png",
+    "file": "games/gunknight.html",
+    "featured": false
+  },
+  {
+    "title": "Half-Life 1",
+    "icon": "icons/halflife.png",
+    "file": "games/halflife.html",
+    "featured": true
+  },
+  {
+    "title": "Hill Climb Racing",
+    "icon": "icons/hillclimbracing.png",
+    "file": "games/hillclimbracing.html",
+    "featured": false
+  },
+  {
+    "title": "Hit 8ox",
+    "icon": "icons/hit8ox.png",
+    "file": "games/hit8ox.html",
+    "featured": false
+  },
+  {
+    "title": "Idle Breakout",
+    "icon": "icons/idlebreakout.png",
+    "file": "games/idlebreakout.html",
+    "featured": true
+  },
+  {
+    "title": "Idle Dice",
+    "icon": "icons/idledice.png",
+    "file": "games/idledice.html",
+    "featured": false
+  },
+  {
+    "title": "Infinite Craft",
+    "icon": "icons/infinitecraft.png",
+    "file": "games/infinitecraft.html",
+    "featured": true
+  },
+  {
+    "title": "I Wanna Be the Guy!",
+    "icon": "icons/iwbtg.png",
+    "file": "games/iwbtg.html",
+    "featured": true
+  },
+  {
+    "title": "Jelly Mario",
+    "icon": "icons/jellymario.png",
+    "file": "games/jellymario.html",
+    "featured": true
+  },
+  {
+    "title": "Jetpack Joyride",
+    "icon": "icons/jetpackjoyride.png",
+    "file": "games/jetpackjoyride.html",
+    "featured": true
+  },
+  {
+    "title": "Karlson",
+    "icon": "icons/karlson.png",
+    "file": "games/karlson.html",
+    "featured": false
+  },
+  {
+    "title": "Level Devil",
+    "icon": "icons/leveldevil.png",
+    "file": "games/leveldevil.html",
+    "featured": false
+  },
+  {
+    "title": "Little Alchemy 2",
+    "icon": "icons/littlealchemy2.png",
+    "file": "games/littlealchemy2.html",
+    "featured": false
+  },
+  {
+    "title": "Mari0",
+    "icon": "icons/mari0.png",
+    "file": "games/mari0.html",
+    "featured": true
+  },
+  {
+    "title": "Mario vs. Luigi",
+    "icon": "icons/mariovsluigi.png",
+    "file": "games/mariovsluigi.html",
+    "featured": false
+  },
+  {
+    "title": "Mimic",
+    "icon": "icons/mimic.png",
+    "file": "games/mimic.html",
+    "featured": false
+  },
+  {
+    "title": "Mini Crossword",
+    "icon": "icons/minicrossword.png",
+    "file": "games/minicrossword.html",
+    "featured": false
+  },
+  {
+    "title": "MotoX3M",
+    "icon": "icons/motox3m.png",
+    "file": "games/motox3m.html",
+    "featured": true
+  },
+  {
+    "title": "MotoX3M 2",
+    "icon": "icons/motox3m2.png",
+    "file": "games/motox3m2.html",
+    "featured": true
+  },
+  {
+    "title": "MotoX3M 3",
+    "icon": "icons/motox3m3.png",
+    "file": "games/motox3m3.html",
+    "featured": true
+  },
+  {
+    "title": "MotoX3M Spookyland",
+    "icon": "icons/motox3mspookyland.png",
+    "file": "games/motox3mspookyland.html",
+    "featured": true
+  },
+  {
+    "title": "MotoX3M Winter",
+    "icon": "icons/motox3mwinter.png",
+    "file": "games/motox3mwinter.html",
+    "featured": true
+  },
+  {
+    "title": "Mr. Mine",
+    "icon": "icons/mrmine.png",
+    "file": "games/mrmine.html",
+    "featured": false
+  },
+  {
+    "title": "Nubby's Number Factory",
+    "icon": "icons/nubbysnumberfactory.png",
+    "file": "games/nubbysnumberfactory.html",
+    "featured": true
+  },
+  {
+    "title": "OvO",
+    "icon": "icons/ovo.png",
+    "file": "games/ovo.html",
+    "featured": true
+  },
+  {
+    "title": "OvO 2",
+    "icon": "icons/ovo2.png",
+    "file": "games/ovo2.html",
+    "featured": true
+  },
+  {
+    "title": "OvO Dimensions",
+    "icon": "icons/ovodimensions.png",
+    "file": "games/ovodimensions.html",
+    "featured": true
+  },
+  {
+    "title": "Parking Fury",
+    "icon": "icons/parkingfury.png",
+    "file": "games/parkingfury.html",
+    "featured": false
+  },
+  {
+    "title": "Parking Fury 2",
+    "icon": "icons/parkingfury2.png",
+    "file": "games/parkingfury2.html",
+    "featured": false
+  },
+  {
+    "title": "Parking Fury 3",
+    "icon": "icons/parkingfury3.png",
+    "file": "games/parkingfury3.html",
+    "featured": false
+  },
+  {
+    "title": "Postal",
+    "icon": "icons/postal.png",
+    "file": "games/postal.html",
+    "featured": false
+  },
+  {
+    "title": "Push Your Luck",
+    "icon": "icons/pushyourluck.png",
+    "file": "games/pushyourluck.html",
+    "featured": false
+  },
+  {
+    "title": "Quake 3 Arena",
+    "icon": "icons/quake3arena.png",
+    "file": "games/quake3arena.html",
+    "featured": true
+  },
+  {
+    "title": "Red Handed",
+    "icon": "icons/redhanded.png",
+    "file": "games/redhanded.html",
+    "featured": false
+  },
+  {
+    "title": "Retro Bowl",
+    "icon": "icons/retrobowl.png",
+    "file": "games/retrobowl.html",
+    "featured": true
+  },
+  {
+    "title": "Retro Ping-Pong",
+    "icon": "icons/retropingpong.png",
+    "file": "games/retropingpong.html",
+    "featured": false
+  },
+  {
+    "title": "Rhythm Game",
+    "icon": "icons/rhythmh.png",
+    "file": "games/rhythmh.html",
+    "featured": false
+  },
+  {
+    "title": "Rooftop Snipers",
+    "icon": "icons/rooftopsnipers.png",
+    "file": "games/rooftopsnipers.html",
+    "featured": false
+  },
+  {
+    "title": "Run3 ",
+    "icon": "icons/run3.png",
+    "file": "games/run3.html",
+    "featured": true
+  },
+  {
+    "title": "Snakelike",
+    "icon": "icons/snakelike.png",
+    "file": "games/snakelike.html",
+    "featured": false
+  },
+  {
+    "title": "Snow Rider",
+    "icon": "icons/snowrider.png",
+    "file": "games/snowrider.html",
+    "featured": true
+  },
+  {
+    "title": "Soccer Random",
+    "icon": "icons/soccerrandom.png",
+    "file": "games/soccerrandom.html",
+    "featured": false
+  },
+  {
+    "title": "Spelunky Classic",
+    "icon": "icons/spelunky.png",
+    "file": "games/spelunky.html",
+    "featured": true
+  },
+  {
+    "title": "Superhot",
+    "icon": "icons/superhot.png",
+    "file": "games/superhot.html",
+    "featured": false
+  },
+  {
+    "title": "Table Tennis World Tour",
+    "icon": "icons/tabletennisworldtour.png",
+    "file": "games/tabletennisworldtour.html",
+    "featured": false
+  },
+  {
+    "title": "Temple Run 2",
+    "icon": "icons/templerun2.png",
+    "file": "games/templerun2.html",
+    "featured": false
+  },
+  {
+    "title": "Terra",
+    "icon": "icons/terra.png",
+    "file": "games/terra.html",
+    "featured": false
+  },
+  {
+    "title": "There Is No Game",
+    "icon": "icons/thereisnofile.png",
+    "file": "games/thereisnofile.html",
+    "featured": false
+  },
+  {
+    "title": "Tiny Fishing",
+    "icon": "icons/tinyfishing.png",
+    "file": "games/tinyfishing.html",
+    "featured": false
+  },
+  {
+    "title": "Tomb of the Mask",
+    "icon": "icons/tombofthemask.png",
+    "file": "games/tombofthemask.html",
+    "featured": true
+  },
+  {
+    "title": "Vampire Survivors",
+    "icon": "icons/vampiresurvivors.png",
+    "file": "games/vampiresurvivors.html",
+    "featured": true
+  },
+  {
+    "title": "Vortex",
+    "icon": "icons/vortex.png",
+    "file": "games/vortex.html",
+    "featured": false
+  },
+  {
+    "title": "We Become What We Behold",
+    "icon": "icons/webecomewhatwebehold.png",
+    "file": "games/webecomewhatwebehold.html",
+    "featured": false
+  },
+  {
+    "title": "Web Fishing",
+    "icon": "icons/webfishing.png",
+    "file": "games/webfishing.html",
+    "featured": false
+  },
+  {
+    "title": "Wolfenstein",
+    "icon": "icons/wolfenstein.png",
+    "file": "games/wolfenstein.html",
+    "featured": false
+  },
+  {
+    "title": "Xor",
+    "icon": "icons/xor.png",
+    "file": "games/xor.html",
+    "featured": false
+  },
+  {
+    "title": "Yohoho.io",
+    "icon": "icons/yohohoio.png",
+    "file": "games/yohohoio.html",
+    "featured": false
+  },
+  {
+    "title": "Zrist",
+    "icon": "icons/zrist.png",
+    "file": "games/zrist.html",
+    "featured": false
+  },
+  {
+    "title": "EmulatorJS",
+    "icon": "icons/emulatorjs.png",
+    "file": "games/emulatorjs.html",
+    "featured": true
+  }
+]
