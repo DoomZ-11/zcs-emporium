@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZC's Online Emporium</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="scanlines">
+    <div class="main">
+        <div id="web-overlay">
+            <div class="header">
+                ZC'S ONLINE EMPORIUM
+            </div>
+            <div id="game-overlay" class="hidden">
+                <iframe id="game-frame" allowfullscreen allow="fullscreen"></iframe>
+                <div id="overlay-bottombar">
+                    <button id="overlay-close" title="Close" onclick="closeGameOverlay()">✕</button>
+                    <div id="overlay-title">Game Title</div>
+                    <button id="overlay-fullscreen" title="Fullscreen" onclick="loadFullscreen()">🗖</button>
+                </div>
+            </div>
+        </div>
+        <pre id="welcome-ascii">Here is some text!</pre>
+        <input id="search-bar" type="text" placeholder="Search games...">
+        <div class="box-container">
+            <h1>‣ WELCOME TO THE SITE!</h1>
+            <p>
+                Engage in a variety of <em>free</em>, browser-based games of numerous genres to play. Each game offers a wieldy amount of gameplay with some even yielding <em>hours</em> of playtime.<br>
+                <br>The site currently contains :
+            </p>
+            <ul>
+                <li><strong>130+ unique</strong> games</li>
+                <li><strong>Countless</strong> hours of gameplay</li>
+                <li>A range of <strong>one-of-a-kind genres</strong></li>
+            </ul>
+            <br>
+            <p>
+                Games are sourced from free-retailers off the web. Some are games are bootlegs, some are remakes, and some are even direct HTML5 ports. <em>Some games will take a while to load</em> ; if 
+                you are experiencing an extended waiting session, try refreshing the page.
+                <br><br>
+                <em>An <strong>"*"</strong> symbol is displayed beside the title if the game must be launched utilizing an 'about : blank' page to host its file contents.</em>
+            </p>
+            <br>
+            <h1>‣ CONTACT</h1>
+            <p>
+                If you would like to suggest games to add or give general critiques to the site, <a href="https://forms.gle/TALuzCXY8oMQrTiV7">Contact</a> me at the appropriate form.<br>
+            </p>
+        </div>
+        <div id="search-bar"></div>
+        
+        <div class="divider">Featured</div>
+        <div class="icon-container" id="featured-games"></div>
+
+        <div class="divider">All Games</div>
+        <div class="icon-container" id="all-games"></div>
+    </div>
+    <div class="footer">
+        <a href="https://forms.gle/TALuzCXY8oMQrTiV7">► Contact ◄</a>
+        <div>
+            <br>
+            ©2026 Zane W. Clark.<br>
+            All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
