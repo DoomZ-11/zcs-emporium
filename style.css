@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Unsteady Oversteer";
-    src: url('fonts/Unsteady\ Oversteer.otf') format("opentype");
+    src: url('https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/fonts/Unsteady%20Oversteer.otf') format("opentype");
 }
 
 @font-face {
     font-family: "Matamata";
-    src: url('fonts/Matamata-Regular.otf') format("opentype");
+    src: url('https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/fonts/Matamata-Regular.otf') format("opentype");
 }
 
 @font-face {
     font-family: "Safety Medium";
-    src: url('fonts/SafetyMedium.otf') format("opentype");
+    src: url('https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/fonts/SafetyMedium.otf') format("opentype");
 }
 
 :root {
@@ -196,7 +196,7 @@ html, body {
 
     height: 100%;
 
-    background: var(--darkest) center url('images/gridback.png') repeat-y;
+    background: var(--darkest) center url('https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/images/gridback.png') repeat-y;
     background-size: 90% auto;
     color: var(--primary);
 }

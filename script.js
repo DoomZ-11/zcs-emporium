@@ -1,5 +1,7 @@
+const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/";
+
 function loadGames() {
-    fetch('game-data.json')
+    fetch(BASE_URL + 'game-data.json')
     .then(res => res.json())
     .then(games => {
         games.sort((a, b) => a.file.localeCompare(b.file));
@@ -23,26 +25,24 @@ function createIcon(game, container) {
     icon.className = 'icon';
     icon.title = game.title;
 
-    
-
     if (game.openblank == false) {
         icon.innerHTML = `
-            <img src="${game.icon}">
+            <img src="${BASE_URL}${game.icon}">
             <div class="game-title">${game.title}</div>
         `;
 
         icon.onclick = () => {
-            openGameOverlay(game.file, game.title);
+            openGameOverlay(BASE_URL + game.file, game.title);
         };
     }
     else {
         icon.innerHTML = `
-            <img src="${game.icon}">
+            <img src="${BASE_URL}${game.icon}">
             <div class="game-title">* ${game.title}</div>
         `;
 
         icon.onclick = () => {
-            openBlankURL(game.file);
+            openBlankURL(BASE_URL + game.file);
         };
     }
 
@@ -151,7 +151,7 @@ function initializeSearchBar() {
 function loopWelcomeASCII() {
     const LINES_PER_FRAME = 57;
     const FPS = 12.5;
-    fetch('welcome-ascii.txt')
+    fetch(BASE_URL + 'welcome-ascii.txt')
     .then(res => res.text())
     .then(text => {
         const target = document.getElementById('welcome-ascii');
