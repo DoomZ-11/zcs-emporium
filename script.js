@@ -38,7 +38,7 @@ function createIcon(game, container) {
     else {
         icon.innerHTML = `
             <img src="${BASE_URL}${game.icon}">
-            <div class="game-title">* ${game.title}</div>
+            <div class="game-title">[*] ${game.title}</div>
         `;
 
         icon.onclick = () => {
