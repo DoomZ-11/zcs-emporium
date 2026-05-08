@@ -196,7 +196,7 @@ html, body {
 
     height: 100%;
 
-    background: var(--darkest) center url('https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@205d2b0/images/gridback.png') repeat-y;
+    background: var(--darkest) center url('https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/images/gridback.png') repeat-y;
     background-size: 90% auto;
     color: var(--primary);
 }
