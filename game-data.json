@@ -801,7 +801,7 @@
     "title": "Spelunky Classic",
     "icon": "icons/spelunky.png",
     "file": "games/spelunky.html",
-    "openblank": false,
+    "openblank": true,
     "featured": true
   },
   {
