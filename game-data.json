@@ -1102,7 +1102,7 @@
     "title": "Orange Roulette",
     "icon": "icons/orangeroulette.png",
     "file": "games/orangeroulette.html",
-    "openblank": false,
+    "openblank": true,
     "featured": false
   },
   {
