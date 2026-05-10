@@ -770,7 +770,7 @@
     "featured": false
   },
   {
-    "title": "Run3 ",
+    "title": "Run 3 ",
     "icon": "icons/run3.png",
     "file": "games/run3.html",
     "openblank": false,
@@ -1223,5 +1223,19 @@
     "file": "games/worldshardestgame.html",
     "openblank": false,
     "featured": false
+  },
+  {
+    "title": "Copter Crusade",
+    "icon": "icons/coptergame.png",
+    "file": "games/coptergame.html",
+    "openblank": false,
+    "featured": true
+  },
+  {
+    "title": "Snake Arena",
+    "icon": "icons/snakearena.png",
+    "file": "games/snakearena.html",
+    "openblank": false,
+    "featured": true
   }
 ]
