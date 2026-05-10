@@ -1228,14 +1228,14 @@
     "title": "Copter Crusade",
     "icon": "icons/coptergame.png",
     "file": "games/coptergame.html",
-    "openblank": false,
+    "openblank": true,
     "featured": true
   },
   {
     "title": "Snake Arena",
     "icon": "icons/snakearena.png",
     "file": "games/snakearena.html",
-    "openblank": false,
+    "openblank": true,
     "featured": true
   }
 ]

@@ -1,4 +1,4 @@
-const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@ae6a547/";
+const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@4f81186/";
 
 function loadGames() {
     fetch(BASE_URL + 'game-data.json')
@@ -38,7 +38,7 @@ function createIcon(game, container) {
     else {
         icon.innerHTML = `
             <img src="${BASE_URL}${game.icon}">
-            <div class="game-title">[✴] ${game.title}</div>
+            <div class="game-title">✴ ${game.title}</div>
         `;
 
         icon.onclick = () => {
