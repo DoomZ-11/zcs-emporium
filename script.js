@@ -1,4 +1,4 @@
-const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@c40b098/";
+const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@ebd6775/";
 
 function loadGames() {
     fetch(BASE_URL + 'game-data.json')
