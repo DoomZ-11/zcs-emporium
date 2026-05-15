@@ -1,4 +1,4 @@
-const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@ebd6775/";
+const BASE_URL = "https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@4089cb2/";
 
 function loadGames() {
     fetch(BASE_URL + 'game-data.json')
@@ -85,6 +85,39 @@ function openBlankURL(file) {
     const tab = window.open("about:blank", "_blank");
 
     fetch(file)
+        .then(res => res.text())
+        .then(html => {
+            const parser = new DOMParser();
+            const parsed = parser.parseFromString(html, "text/html");
+
+            tab.document.documentElement.innerHTML =
+                parsed.documentElement.innerHTML;
+
+            const scripts = [...tab.document.querySelectorAll("script")];
+
+            scripts.forEach(oldScript => {
+                const newScript = tab.document.createElement("script");
+
+                for (const attr of oldScript.attributes) {
+                    newScript.setAttribute(attr.name, attr.value);
+                }
+
+                newScript.textContent = oldScript.textContent;
+
+                oldScript.remove();
+                tab.document.body.appendChild(newScript);
+            });
+
+            tab.document.close();
+        })
+        .catch(err => console.error(err));
+}
+
+/*
+function openBlankURL(file) {
+    const tab = window.open("about:blank", "_blank");
+
+    fetch(file)
     .then(res => res.text())
     .then(html => {
         tab.document.open();
@@ -99,6 +132,7 @@ function openBlankURL(file) {
     })
     .catch (err => console.error(err));
 }
+*/
 
 function loadFullscreen() {
     const frame = document.getElementById('game-frame')
