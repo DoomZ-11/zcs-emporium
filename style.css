@@ -271,14 +271,14 @@ body.hide-scrollbar::-webkit-scrollbar {
     width: 100%;
     flex: 1;
 
-    font-size: 0.95rem;
+    font-size: max(0.7vw, 0.75rem);
     text-align: left;
 
-    line-height: clamp(1rem, 1.5vw, 2rem);
+    line-height: max(1.25vw, 1rem);
 
     color: var(--text-color-darkened);
 
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #search-bar {
