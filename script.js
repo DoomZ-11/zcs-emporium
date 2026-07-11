@@ -181,8 +181,6 @@ function launchGame() {
 
     if (!currentSelectedGame) return;
 
-    const isEdge = navigator.userAgent.includes("Edg/");
-
     const toolbar = document.getElementById("toolbar");
     const toolbarTitle = document.getElementById("game-toolbar-title");
 
@@ -195,26 +193,7 @@ function launchGame() {
 
     const frame = document.getElementById("game-frame");
 
-    if (isEdge) {
-        fetch(currentSelectedGame.file)
-        .then(res => res.text())
-        .then(html => {
-            const base =
-            `<base href="${currentSelectedGame.file.substring(0,
-            currentSelectedGame.file.lastIndexOf("/") + 1)}">`;
-
-            html = html.replace("<head>", "<head>" + base);
-
-            const blob = new Blob([html], {
-                type: "text/html"
-        });
-
-        frame.src = URL.createObjectURL(blob);
-        });   
-    }
-    else {
-        frame.src = currentSelectedGame.file;
-    }
+    frame.src = currentSelectedGame.file;
 }
 function openInNewTab() {
     closeStartWindow();
