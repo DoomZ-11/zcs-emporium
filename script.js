@@ -181,6 +181,8 @@ function launchGame() {
 
     if (!currentSelectedGame) return;
 
+    const isEdge = navigator.userAgent.includes("Edg/");
+
     const toolbar = document.getElementById("toolbar");
     const toolbarTitle = document.getElementById("game-toolbar-title");
 
@@ -193,10 +195,8 @@ function launchGame() {
 
     const frame = document.getElementById("game-frame");
 
-    frame.src = currentSelectedGame.file;
-
-    /*
-    fetch(currentSelectedGame.file)
+    if (isEdge) {
+        fetch(currentSelectedGame.file)
         .then(res => res.text())
         .then(html => {
             const base =
@@ -209,13 +209,13 @@ function launchGame() {
                 type: "text/html"
         });
 
-        const frame = document.getElementById("game-frame");
-
         frame.src = URL.createObjectURL(blob);
-        });
-        */
+        });   
+    }
+    else {
+        frame.src = currentSelectedGame.file;
+    }
 }
-
 function openInNewTab() {
     closeStartWindow();
 
