@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ZC's Online Emporium</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="ZC's Online Emporium - A collection of online browser games.">
+        <meta name="theme-color" content="#000000">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+    <body>
+        <div class="bg-layer-1"></div>
+        <div class="bg-layer-2"></div>
+        <div class="bg-layer-3"></div>
+
+        <div id="dark-overlay" class="hidden"></div>
+
+        <div id="header">
+            <div id="header-title" class="unselectable">- ZC's Online Emporium -</div>
+        </div>
+
+        <div id="game-start-window" class="hidden">
+            <div class="start-window-button-secondary unselectable" onclick="closeStartWindow()">« Close »</div>
+            <div id="start-window-icon"></div>
+            <div id="start-window-tags" class="unselectable"></div>
+            <div class="start-window-button-primary unselectable" onclick="launchGame()">[ Launch ]</div>
+            <div class="start-window-button-secondary unselectable" onclick="openInNewTab()">▶ open in new tab ◀</div>
+            <div class="start-window-button-secondary unselectable" onclick="openInWindow()">▶ open in new window ◀</div>
+        </div>
+
+        <div id="game-frame-container" class="hidden">
+            <iframe id="game-frame"></iframe>
+        </div>
+
+        <div id="toolbar" class="hidden">
+            <div id="game-close-button" class="toolbar-button unselectable"
+                onclick="closeGame()">×</div>
+            <div id="game-zoom-out" class="toolbar-button unselectable"
+                onclick="zoomGameOut()">-</div>
+
+            <div id="game-toolbar-title" class="unselectable"></div>
+
+            <div id="game-zoom-in" class="toolbar-button unselectable"
+                onclick="zoomGameIn()">+</div>
+            <div id="game-close-button" class="toolbar-button unselectable"
+                style="font-size: clamp(18px, 1.125vw, 54px);" onclick="toggleFullscreen()">[]</div>
+        </div>
+
+        <div class="sidebar">
+            <input id="search-bar" type="text" placeholder="Search...", autocomplete="off">
+            <div id="nav-container"></div>
+            <div class="info-container unselectable">
+                <a href="https://forms.gle/TALuzCXY8oMQrTiV7" target="_blank" style="text-align: center;">▶&nbsp;Contact&nbsp;◀</a><br>
+                *&nbsp;Some games may take significant time to load!!!<br>
+                <br>
+                v.1.0.0<br>
+                ZC's Emporium
+            </div>
+        </div>
+
+        <div id="welcome">Welcome to the Emporium!</div>
+        
+        <div id="icons-container"></div>
+
+        <div class="footer">
+            <a href="https://forms.gle/TALuzCXY8oMQrTiV7" target="_blank">▶ Contact ◀</a>
+            <div>
+                © 2026 Zane W. Clark.<br>
+                All Rights Reserved.
+            </div>
+        </div>
+        
+        <script src="script.js" defer></script>
+    </body>
+</html>

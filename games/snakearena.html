@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <title>Snake Arena</title>
+
+  <link rel="shortcut icon" href="https://doomz-11.github.io/snake-arena/TemplateData/favicon.ico">
+  <link rel="stylesheet" href="https://doomz-11.github.io/snake-arena/TemplateData/style.css">
+
+  <script src="https://doomz-11.github.io/snake-arena/Build/SnakeArena.loader.js"></script>
+</head>
+<body style="margin:0; padding:0; background:black; overflow:hidden;">
+  <canvas id="unity-canvas" style="width:100vw; height:100vh; background:black;"></canvas>
+
+  <script>
+    function unityShowBanner(msg, type) {
+      console[type === 'error' ? 'error' : 'log']('[Unity]', msg);
+    }
+
+    (function() {
+      const origFetch = window.fetch;
+      window.fetch = function() {
+        const args = arguments;
+        return origFetch.apply(this, args).then(resp => {
+          if (!resp.ok) {
+            console.error('Fetch failed:', resp.url, resp.status, resp.statusText);
+          }
+          return resp;
+        }).catch(err => {
+          console.error('Fetch exception:', args[0], err);
+          throw err;
+        });
+      };
+    })();
+
+    const buildUrl = "https://doomz-11.github.io/snake-arena/Build/";
+    const config = {
+      dataUrl: buildUrl + "SnakeArena.data",
+      frameworkUrl: buildUrl + "SnakeArena.framework.js",
+      codeUrl: buildUrl + "SnakeArena.wasm",
+      streamingAssetsUrl: "", // none
+      companyName: "DoomZ",
+      productName: "Snake Arena",
+      productVersion: "1.00",
+      showBanner: unityShowBanner,
+    };
+
+    createUnityInstance(document.querySelector("#unity-canvas"), config)
+      .then((unityInstance) => {
+        console.log("Unity instance loaded.", unityInstance);
+      })
+      .catch((message) => {
+        console.error("Unity Load Error:", message);
+      });
+  </script>
+</body>
+</html>

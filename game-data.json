@@ -1,0 +1,1262 @@
+[
+  {
+    "title": "2Doom",
+    "icon": "icons/2doom.png",
+    "file": "games/2doom.html",
+    "tags": ["shooter", "action"]
+  },
+  {
+    "title": "3Dash",
+    "icon": "icons/3dash.png",
+    "file": "games/3dash.html",
+    "tags": ["platformer", "rhythm"]
+  },
+  {
+    "title": "Windows 3D Space Pinball",
+    "icon": "icons/3dpinballspacecadet.png",
+    "file": "games/3dpinballspacecadet.html",
+    "tags": ["arcade", "classic"]
+  },
+  {
+    "title": "8-Ball Classic",
+    "icon": "icons/8ballclassic.png",
+    "file": "games/8ballclassic.html",
+    "tags": ["simulation", "sports"]
+  },
+  {
+    "title": "10 Minutes 'til Dawn",
+    "icon": "icons/10minutestildawn.png",
+    "file": "games/10minutestildawn.html",
+    "tags": ["shooter", "action"]
+  },
+  {
+    "title": "20 Small Mazes",
+    "icon": "icons/20smallmazes.png",
+    "file": "games/20smallmazes.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "99 Balls",
+    "icon": "icons/99balls.png",
+    "file": "games/99balls.html",
+    "tags": ["arcade", "physics"]
+  },
+  {
+    "title": "500 Caliber Contractz",
+    "icon": "icons/500calibercontractz.png",
+    "file": "games/500calibercontractz.html",
+    "tags": ["shooter", "action"]
+  },
+  {
+    "title": "2048",
+    "icon": "icons/2048.png",
+    "file": "games/2048.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "9007199254740992",
+    "icon": "icons/9007199254740992.png",
+    "file": "games/9007199254740992.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "A Dark Room",
+    "icon": "icons/adarkroom.png",
+    "file": "games/adarkroom.html",
+    "tags": ["adventure"]
+  },
+  {
+    "title": "A Day in the Office",
+    "icon": "icons/adayintheoffice.png",
+    "file": "games/adayintheoffice.html",
+    "tags": ["adventure", "puzzle"]
+  },
+  {
+    "title": "A Dance of Fire and Ice",
+    "icon": "icons/adofai.png",
+    "file": "games/adofai.html",
+    "tags": ["rhythm"]
+  },
+  {
+    "title": "Adventure Capitalist",
+    "icon": "icons/adventurecapatalist.png",
+    "file": "games/adventurecapatalist.html",
+    "tags": ["idle", "simulation"]
+  },
+  {
+    "title": "Ages of Conflict",
+    "icon": "icons/agesofconflict.png",
+    "file": "games/agesofconflict.html",
+    "tags": ["strategy", "simulation"]
+  },
+  {
+    "title": "Airline Tycoon",
+    "icon": "icons/airlinetycoonidle.png",
+    "file": "games/airlinetycoonidle.html",
+    "tags": ["simulation", "idle"]
+  },
+  {
+    "title": "Allocation",
+    "icon": "icons/allocation.png",
+    "file": "games/allocation.html",
+    "tags": ["puzzle", "strategy"]
+  },
+  {
+    "title": "Amorphous",
+    "icon": "icons/amorphous.png",
+    "file": "games/amorphous.html",
+    "tags": ["action", "arcade"]
+  },
+  {
+    "title": "Ancient Sins",
+    "icon": "icons/ancientsins.png",
+    "file": "games/ancientsins.html",
+    "tags": ["horror", "adventure"]
+  },
+  {
+    "title": "Anti-matter Dimensions",
+    "icon": "icons/antimatterdimensions.png",
+    "file": "games/antimatterdimensions.html",
+    "tags": ["idle", "simulation"]
+  },
+  {
+    "title": "Ascent",
+    "icon": "icons/ascent.png",
+    "file": "games/ascent.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Asteroids",
+    "icon": "icons/asteroids.png",
+    "file": "games/asteroids.html",
+    "tags": ["arcade", "shooter"]
+  },
+  {
+    "title": "Babel Tower",
+    "icon": "icons/babeltower.png",
+    "file": "games/babeltower.html",
+    "tags": ["strategy", "puzzle"]
+  },
+  {
+    "title": "Bad Piggies",
+    "icon": "icons/badpiggies.png",
+    "file": "games/badpiggies.html",
+    "tags": ["puzzle", "physics"]
+  },
+  {
+    "title": "Baldi's Basics",
+    "icon": "icons/baldisbasics.png",
+    "file": "games/baldisbasics.html",
+    "tags": ["horror", "adventure"]
+  },
+  {
+    "title": "Basket Random",
+    "icon": "icons/basketrandom.png",
+    "file": "games/basketrandom.html",
+    "tags": ["sports", "arcade"]
+  },
+  {
+    "title": "Big Ice Tower vs. Tiny Square",
+    "icon": "icons/bigicetowertinysquare.png",
+    "file": "games/bigicetowertinysquare.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Big Neon Tower vs. Tiny Square",
+    "icon": "icons/bigneontowertinysquare.png",
+    "file": "games/bigneontowertinysquare.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Big Tower vs. Tiny Square",
+    "icon": "icons/bigtowertinysquare.png",
+    "file": "games/bigtowertinysquare.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Big Tower vs. Tiny Square 2",
+    "icon": "icons/bigtowertinysquare2.png",
+    "file": "games/bigtowertinysquare2.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Black Jack",
+    "icon": "icons/blackjack.png",
+    "file": "games/blackjack.html",
+    "tags": ["simulation"]
+  },
+  {
+    "title": "Blastronaut",
+    "icon": "icons/blastronaut.png",
+    "file": "games/blastronaut.html",
+    "tags": ["action", "adventure"]
+  },
+  {
+    "title": "Blockblast",
+    "icon": "icons/blockblast.png",
+    "file": "games/blockblast.html",
+    "tags": ["puzzle", "arcade"]
+  },
+  {
+    "title": "Boxing Random",
+    "icon": "icons/boxingrandom.png",
+    "file": "games/boxingrandom.html",
+    "tags": ["sports", "arcade"]
+  },
+  {
+    "title": "Captchaware",
+    "icon": "icons/captchaware.png",
+    "file": "games/captchaware.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Castle Wars Modern",
+    "icon": "icons/castlewarsmodern.png",
+    "file": "games/castlewarsmodern.html",
+    "tags": ["strategy", "action"]
+  },
+  {
+    "title": "Cat Mario",
+    "icon": "icons/catmario.png",
+    "file": "games/catmario.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "Cave Story",
+    "icon": "icons/cavestory.png",
+    "file": "games/cavestory.html",
+    "tags": ["platformer", "action", "adventure"]
+  },
+  {
+    "title": "The Cloverpit",
+    "icon": "icons/cloverpit.png",
+    "file": "games/cloverpit.html",
+    "tags": ["roguelike", "horror", "featured"]
+  },
+  {
+    "title": "Cruelty Squad",
+    "icon": "icons/crueltysquad.png",
+    "file": "games/crueltysquad.html",
+    "tags": ["shooter", "action", "adventure", "featured"]
+  },
+  {
+    "title": "PICO-8 Celeste",
+    "icon": "icons/celeste.png",
+    "file": "games/celeste.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Cell Machine",
+    "icon": "icons/cellmachine.png",
+    "file": "games/cellmachine.html",
+    "tags": ["puzzle", "simulation"]
+  },
+  {
+    "title": "Cheese is the Reason",
+    "icon": "icons/cheeseisthereason.png",
+    "file": "games/cheeseisthereason.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Cheese Rolling",
+    "icon": "icons/cheeserolling.png",
+    "file": "games/cheeserolling.html",
+    "tags": ["arcade", "featured"]
+  },
+  {
+    "title": "Chess Classic",
+    "icon": "icons/chessclassic.png",
+    "file": "games/chessclassic.html",
+    "tags": ["strategy"]
+  },
+  {
+    "title": "CircloO2",
+    "icon": "icons/circloo2.png",
+    "file": "games/circloo2.html",
+    "tags": ["puzzle", "physics"]
+  },
+  {
+    "title": "Coffee Maker",
+    "icon": "icons/coffeemaker.png",
+    "file": "games/coffeemaker.html",
+    "tags": ["simulation"]
+  },
+  {
+    "title": "Cookie Clicker",
+    "icon": "icons/cookieclicker.png",
+    "file": "games/cookieclicker.html",
+    "tags": ["idle", "simulation", "featured"]
+  },
+  {
+    "title": "Crank It!",
+    "icon": "icons/crankit.png",
+    "file": "games/crankit.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "Crazy Cattle 3D",
+    "icon": "icons/crazycattle3d.png",
+    "file": "games/crazycattle3d.html",
+    "tags": ["action", "physics", "featured"]
+  },
+  {
+    "title": "Crossy Road",
+    "icon": "icons/crossyroad.png",
+    "file": "games/crossyroad.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "Cuphead",
+    "icon": "icons/cuphead.png",
+    "file": "games/cuphead.html",
+    "tags": ["platformer", "shooter", "arcade", "action", "featured"]
+  },
+  {
+    "title": "Deepest Sword",
+    "icon": "icons/deepestsword.png",
+    "file": "games/deepestsword.html",
+    "tags": ["platformer", "puzzle"]
+  },
+  {
+    "title": "Deltarune",
+    "icon": "icons/deltarune.png",
+    "file": "games/deltarune.html",
+    "tags": ["adventure", "puzzle", "action", "featured"]
+  },
+  {
+    "title": "Doom",
+    "icon": "icons/doom.png",
+    "file": "games/doom.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Doom 2",
+    "icon": "icons/doom2.png",
+    "file": "games/doom2.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Duck Life Battle",
+    "icon": "icons/ducklifebattle.png",
+    "file": "games/ducklifebattle.html",
+    "tags": ["simulation", "strategy"]
+  },
+  {
+    "title": "Duke Nukem 2",
+    "icon": "icons/dukenukem2.png",
+    "file": "games/dukenukem2.html",
+    "tags": ["shooter", "action", "classic"]
+  },
+  {
+    "title": "Duke Nukem 3D",
+    "icon": "icons/dukenukem3d.png",
+    "file": "games/dukenukem3d.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Dumb Ways to Die",
+    "icon": "icons/dumbwaystodie.png",
+    "file": "games/dumbwaystodie.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "Endoparasitic",
+    "icon": "icons/endoparasitic.png",
+    "file": "games/endoparasitic.html",
+    "tags": ["shooter", "simulation", "horror", "featured"]
+  },
+  {
+    "title": "Endoparasitic 2",
+    "icon": "icons/endoparasitic2.png",
+    "file": "games/endoparasitic2.html",
+    "tags": ["shooter", "simulation", "horror", "featured"]
+  },
+  {
+    "title": "Evil Glitch",
+    "icon": "icons/evilglitch.png",
+    "file": "games/evilglitch.html",
+    "tags": ["shooter", "arcade"]
+  },
+  {
+    "title": "Evolution",
+    "icon": "icons/evolution.png",
+    "file": "games/evolution.html",
+    "tags": ["simulation"]
+  },
+  {
+    "title": "Fear Assessment",
+    "icon": "icons/fearassessment.png",
+    "file": "games/fearassessment.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "Fears to Fathom Home Alone",
+    "icon": "icons/fearstofathomhomealone.png",
+    "file": "games/fearstofathomhomealone.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "Feed the Void",
+    "icon": "icons/feedthevoid.png",
+    "file": "games/feedthevoid.html",
+    "tags": ["horror", "adventure"]
+  },
+  {
+    "title": "Fish",
+    "icon": "icons/fish.png",
+    "file": "games/fish.html",
+    "tags": ["shooter", "platformer", "action"]
+  },
+  {
+    "title": "FNAF",
+    "icon": "icons/fnaf.png",
+    "file": "games/fnaf.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "FNAF2",
+    "icon": "icons/fnaf2.png",
+    "file": "games/fnaf2.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "FNAF3",
+    "icon": "icons/fnaf3.png",
+    "file": "games/fnaf3.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "FNAF4",
+    "icon": "icons/fnaf4.png",
+    "file": "games/fnaf4.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "Fruit Ninja",
+    "icon": "icons/fruitninja.png",
+    "file": "games/fruitninja.html",
+    "tags": ["arcade", "action"]
+  },
+  {
+    "title": "Geometry Dash - Lite",
+    "icon": "icons/gdlite.png",
+    "file": "games/gdlite.html",
+    "tags": ["rhythm", "platformer"]
+  },
+  {
+    "title": "Geometry Dash - Subzero",
+    "icon": "icons/gdsubzero.png",
+    "file": "games/gdsubzero.html",
+    "tags": ["rhythm", "platformer"]
+  },
+  {
+    "title": "Geometry Dash - World",
+    "icon": "icons/gdworld.png",
+    "file": "games/gdworld.html",
+    "tags": ["rhythm", "platformer"]
+  },
+  {
+    "title": "George and the Printer",
+    "icon": "icons/georgeandtheprinter.png",
+    "file": "games/georgeandtheprinter.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Golf Battle",
+    "icon": "icons/golfbattle.png",
+    "file": "games/golfbattle.html",
+    "tags": ["sports", "arcade"]
+  },
+  {
+    "title": "Google Dino",
+    "icon": "icons/googledino.png",
+    "file": "games/googledino.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "Granny",
+    "icon": "icons/granny.png",
+    "file": "games/granny.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "Granny 2",
+    "icon": "icons/granny2.png",
+    "file": "games/granny2.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "Gravity Mod",
+    "icon": "icons/gravitymod.png",
+    "file": "games/gravitymod.html",
+    "tags": ["physics", "sandbox"]
+  },
+  {
+    "title": "GunKnight",
+    "icon": "icons/gunknight.png",
+    "file": "games/gunknight.html",
+    "tags": ["action", "roguelike"]
+  },
+  {
+    "title": "Half-Life 1",
+    "icon": "icons/halflife.png",
+    "file": "games/halflife.html",
+    "tags": ["shooter", "action", "adventure", "classic", "featured"]
+  },
+  {
+    "title": "Half-Life: Opposing Force",
+    "icon": "icons/halflifeop.png",
+    "file": "games/halflifeop.html",
+    "tags": ["shooter", "action", "adventure", "classic", "featured"]
+  },
+  {
+    "title": "Heretic",
+    "icon": "icons/heretic.png",
+    "file": "games/heretic.html",
+    "tags": ["shooter", "action", "classic"]
+  },
+  {
+    "title": "Hill Climb Racing",
+    "icon": "icons/hillclimbracing.png",
+    "file": "games/hillclimbracing.html",
+    "tags": ["racing", "physics"]
+  },
+  {
+    "title": "Hit 8ox",
+    "icon": "icons/hit8ox.png",
+    "file": "games/hit8ox.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "Hollow Knight",
+    "icon": "icons/hollowknight.png",
+    "file": "games/hollowknight.html",
+    "tags": ["action", "arcade", "featured"]
+  },
+  {
+    "title": "Idle Breakout",
+    "icon": "icons/idlebreakout.png",
+    "file": "games/idlebreakout.html",
+    "tags": ["idle", "arcade", "featured"]
+  },
+  {
+    "title": "Idle Dice",
+    "icon": "icons/idledice.png",
+    "file": "games/idledice.html",
+    "tags": ["idle", "simulation"]
+  },
+  {
+    "title": "Infinite Craft",
+    "icon": "icons/infinitecraft.png",
+    "file": "games/infinitecraft.html",
+    "tags": ["sandbox", "puzzle"]
+  },
+  {
+    "title": "Iron Lung",
+    "icon": "icons/ironlung.png",
+    "file": "games/ironlung.html",
+    "tags": ["horror", "puzzle", "featured"]
+  },
+  {
+    "title": "I Wanna Be the Guy!",
+    "icon": "icons/iwbtg.png",
+    "file": "games/iwbtg.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "Jelly Mario",
+    "icon": "icons/jellymario.png",
+    "file": "games/jellymario.html",
+    "tags": ["platformer", "physics"]
+  },
+  {
+    "title": "Jetpack Joyride",
+    "icon": "icons/jetpackjoyride.png",
+    "file": "games/jetpackjoyride.html",
+    "tags": ["arcade", "action"]
+  },
+  {
+    "title": "Karlson",
+    "icon": "icons/karlson.png",
+    "file": "games/karlson.html",
+    "tags": ["action", "shooter"]
+  },
+  {
+    "title": "Level Devil",
+    "icon": "icons/leveldevil.png",
+    "file": "games/leveldevil.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Little Alchemy 2",
+    "icon": "icons/littlealchemy2.png",
+    "file": "games/littlealchemy2.html",
+    "tags": ["puzzle", "sandbox"]
+  },
+  {
+    "title": "Mari0",
+    "icon": "icons/mari0.png",
+    "file": "games/mari0.html",
+    "tags": ["platformer", "puzzle", "featured"]
+  },
+  {
+    "title": "Mario vs. Luigi",
+    "icon": "icons/mariovsluigi.png",
+    "file": "games/mariovsluigi.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Mimic",
+    "icon": "icons/mimic.png",
+    "file": "games/mimic.html",
+    "tags": ["horror"]
+  },
+  {
+    "title": "Minecraft 1.5.2",
+    "icon": "icons/eagler1.5.2.png",
+    "file": "games/eagler1.5.2.html",
+    "tags": ["sandbox", "featured"]
+  },
+  {
+    "title": "Minecraft 1.8.8",
+    "icon": "icons/eagler1.8.8.png",
+    "file": "games/eagler1.8.8.html",
+    "tags": ["sandbox", "featured"]
+  },
+  {
+    "title": "Minecraft 1.12.2",
+    "icon": "icons/eagler1.12.2.png",
+    "file": "games/eagler1.12.2.html",
+    "tags": ["sandbox", "featured"]
+  },
+  {
+    "title": "Mini Crossword",
+    "icon": "icons/minicrossword.png",
+    "file": "games/minicrossword.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "MotoX3M",
+    "icon": "icons/motox3m.png",
+    "file": "games/motox3m.html",
+    "tags": ["racing", "physics"]
+  },
+  {
+    "title": "MotoX3M 2",
+    "icon": "icons/motox3m2.png",
+    "file": "games/motox3m2.html",
+    "tags": ["racing", "physics"]
+  },
+  {
+    "title": "MotoX3M 3",
+    "icon": "icons/motox3m3.png",
+    "file": "games/motox3m3.html",
+    "tags": ["racing", "physics"]
+  },
+  {
+    "title": "MotoX3M Spookyland",
+    "icon": "icons/motox3mspookyland.png",
+    "file": "games/motox3mspookyland.html",
+    "tags": ["racing", "physics", "horror"]
+  },
+  {
+    "title": "MotoX3M Winter",
+    "icon": "icons/motox3mwinter.png",
+    "file": "games/motox3mwinter.html",
+    "tags": ["racing", "physics"]
+  },
+  {
+    "title": "Mr. Mine",
+    "icon": "icons/mrmine.png",
+    "file": "games/mrmine.html",
+    "tags": ["idle", "simulation"]
+  },
+  {
+    "title": "Nubby's Number Factory",
+    "icon": "icons/nubbysnumberfactory.png",
+    "file": "games/nubbysnumberfactory.html",
+    "tags": ["puzzle", "simulation", "featured"]
+  },
+  {
+    "title": "OvO",
+    "icon": "icons/ovo.png",
+    "file": "games/ovo.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "OvO 2",
+    "icon": "icons/ovo2.png",
+    "file": "games/ovo2.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "OvO Dimensions",
+    "icon": "icons/ovodimensions.png",
+    "file": "games/ovodimensions.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Parking Fury",
+    "icon": "icons/parkingfury.png",
+    "file": "games/parkingfury.html",
+    "tags": ["racing", "simulation"]
+  },
+  {
+    "title": "Parking Fury 2",
+    "icon": "icons/parkingfury2.png",
+    "file": "games/parkingfury2.html",
+    "tags": ["racing", "simulation"]
+  },
+  {
+    "title": "Parking Fury 3",
+    "icon": "icons/parkingfury3.png",
+    "file": "games/parkingfury3.html",
+    "tags": ["racing", "simulation"]
+  },
+  {
+    "title": "People Playground",
+    "icon": "icons/peopleplayground.png",
+    "file": "games/peopleplayground.html",
+    "tags": ["sandbox", "physics", "horror", "featured"]
+  },
+  {
+    "title": "Postal",
+    "icon": "icons/postal.png",
+    "file": "games/postal.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Push Your Luck",
+    "icon": "icons/pushyourluck.png",
+    "file": "games/pushyourluck.html",
+    "tags": ["simulation"]
+  },
+  {
+    "title": "Quake",
+    "icon": "icons/quake.png",
+    "file": "games/quake.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Quake 3 Arena",
+    "icon": "icons/quake3arena.png",
+    "file": "games/quake3arena.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Red Handed",
+    "icon": "icons/redhanded.png",
+    "file": "games/redhanded.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Retro Bowl",
+    "icon": "icons/retrobowl.png",
+    "file": "games/retrobowl.html",
+    "tags": ["sports", "simulation"]
+  },
+  {
+    "title": "Retro Ping-Pong",
+    "icon": "icons/retropingpong.png",
+    "file": "games/retropingpong.html",
+    "tags": ["arcade", "sports"]
+  },
+  {
+    "title": "Rhythm Game",
+    "icon": "icons/rhythmh.png",
+    "file": "games/rhythmh.html",
+    "tags": ["rhythm"]
+  },
+  {
+    "title": "Rooftop Snipers",
+    "icon": "icons/rooftopsnipers.png",
+    "file": "games/rooftopsnipers.html",
+    "tags": ["shooter", "arcade"]
+  },
+  {
+    "title": "Ruffle",
+    "icon": "icons/ruffle.png",
+    "file": "games/ruffle.html",
+    "tags": ["emulator"]
+  },
+  {
+    "title": "Run 3 ",
+    "icon": "icons/run3.png",
+    "file": "games/run3.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "Snakelike",
+    "icon": "icons/snakelike.png",
+    "file": "games/snakelike.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "Snow Rider 3D",
+    "icon": "icons/snowrider.png",
+    "file": "games/snowrider.html",
+    "tags": ["racing", "arcade"]
+  },
+  {
+    "title": "Slope",
+    "icon": "icons/slope.png",
+    "file": "games/slope.html",
+    "tags": ["platformer", "action", "featured"]
+  },
+  {
+    "title": "Soccer Random",
+    "icon": "icons/soccerrandom.png",
+    "file": "games/soccerrandom.html",
+    "tags": ["sports", "arcade"]
+  },
+  {
+    "title": "Spelunky Classic",
+    "icon": "icons/spelunky.png",
+    "file": "games/spelunky.html",
+    "tags": ["platformer", "roguelike", "featured"]
+  },
+  {
+    "title": "Stardew Valley",
+    "icon": "icons/stardewvalley.png",
+    "file": "games/stardewvalley.html",
+    "tags": ["adventure", "sandbox", "featured"]
+  },
+  {
+    "title": "Stick With It",
+    "icon": "icons/stickwithit.png",
+    "file": "games/stickwithit.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Superhot",
+    "icon": "icons/superhot.png",
+    "file": "games/superhot.html",
+    "tags": ["shooter", "action"]
+  },
+  {
+    "title": "Table Tennis World Tour",
+    "icon": "icons/tabletennisworldtour.png",
+    "file": "games/tabletennisworldtour.html",
+    "tags": ["sports"]
+  },
+  {
+    "title": "Temple Run 2",
+    "icon": "icons/templerun2.png",
+    "file": "games/templerun2.html",
+    "tags": ["arcade", "action"]
+  },
+  {
+    "title": "Terra",
+    "icon": "icons/terra.png",
+    "file": "games/terra.html",
+    "tags": ["strategy", "simulation", "sandbox"]
+  },
+  {
+    "title": "There Is No Game",
+    "icon": "icons/thereisnofile.png",
+    "file": "games/thereisnofile.html",
+    "tags": ["puzzle", "adventure"]
+  },
+  {
+    "title": "This is the Only Level",
+    "icon": "icons/thisistheonlylevel.png",
+    "file": "games/thisistheonlylevel.html",
+    "tags": ["puzzle", "platformer"]
+  },
+  {
+    "title": "This is the Only Level 2",
+    "icon": "icons/thisistheonlylevel2.png",
+    "file": "games/thisistheonlylevel2.html",
+    "tags": ["puzzle", "platformer"]
+  },
+  {
+    "title": "Tiny Fishing",
+    "icon": "icons/tinyfishing.png",
+    "file": "games/tinyfishing.html",
+    "tags": ["simulation", "idle"]
+  },
+  {
+    "title": "Tomb of the Mask",
+    "icon": "icons/tombofthemask.png",
+    "file": "games/tombofthemask.html",
+    "tags": ["arcade", "action"]
+  },
+  {
+    "title": "Vampire Survivors",
+    "icon": "icons/vampiresurvivors.png",
+    "file": "games/vampiresurvivors.html",
+    "tags": ["roguelike", "action", "featured"]
+  },
+  {
+    "title": "Vortex",
+    "icon": "icons/vortex.png",
+    "file": "games/vortex.html",
+    "tags": ["arcade"]
+  },
+  {
+    "title": "We Become What We Behold",
+    "icon": "icons/webecomewhatwebehold.png",
+    "file": "games/webecomewhatwebehold.html",
+    "tags": ["adventure", "simulation"]
+  },
+  {
+    "title": "Web Fishing",
+    "icon": "icons/webfishing.png",
+    "file": "games/webfishing.html",
+    "tags": ["simulation"]
+  },
+  {
+    "title": "Wolfenstein 3D",
+    "icon": "icons/wolfenstein.png",
+    "file": "games/wolfenstein.html",
+    "tags": ["shooter", "action", "classic", "featured"]
+  },
+  {
+    "title": "Xor",
+    "icon": "icons/xor.png",
+    "file": "games/xor.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Yohoho.io",
+    "icon": "icons/yohohoio.png",
+    "file": "games/yohohoio.html",
+    "tags": ["action"]
+  },
+  {
+    "title": "Zrist",
+    "icon": "icons/zrist.png",
+    "file": "games/zrist.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "EmulatorJS",
+    "icon": "icons/emulatorjs.png",
+    "file": "games/emulatorjs.html",
+    "tags": ["emulator"]
+  },
+  {
+    "title": "Alien Hominid",
+    "icon": "icons/alienhominid.png",
+    "file": "games/alienhominid.html",
+    "tags": ["shooter", "action"]
+  },
+  {
+    "title": "Angry Birds Space",
+    "icon": "icons/angrybirdsspace.png",
+    "file": "games/angrybirdsspace.html",
+    "tags": ["puzzle", "physics"]
+  },
+  {
+    "title": "Binding of Isaac: Flash",
+    "icon": "icons/bindingofisaac.png",
+    "file": "games/bindingofisaac.html",
+    "tags": ["roguelike", "action", "featured"]
+  },
+  {
+    "title": "Blood",
+    "icon": "icons/blood.png",
+    "file": "games/blood.html",
+    "tags": ["shooter", "action", "classic"]
+  },
+  {
+    "title": "Bloons",
+    "icon": "icons/bloons.png",
+    "file": "games/bloons.html",
+    "tags": ["strategy", "puzzle"]
+  },
+  {
+    "title": "Bloons 2",
+    "icon": "icons/bloons2.png",
+    "file": "games/bloons2.html",
+    "tags": ["strategy", "puzzle"]
+  },
+  {
+    "title": "Bloons Tower Defense",
+    "icon": "icons/bloonstd.png",
+    "file": "games/bloonstd.html",
+    "tags": ["simulation", "strategy", "puzzle"]
+  },
+  {
+    "title": "Bloons Tower Defense 2",
+    "icon": "icons/bloonstd2.png",
+    "file": "games/bloonstd2.html",
+    "tags": ["simulation", "strategy", "puzzle"]
+  },
+  {
+    "title": "Bloons Tower Defense 3",
+    "icon": "icons/bloonstd3.png",
+    "file": "games/bloonstd3.html",
+    "tags": ["simulation", "strategy", "puzzle"]
+  },
+  {
+    "title": "Bloons Tower Defense 4",
+    "icon": "icons/bloonstd4.png",
+    "file": "games/bloonstd4.html",
+    "tags": ["simulation", "strategy", "puzzle"]
+  },
+  {
+    "title": "Bloxors",
+    "icon": "icons/bloxorz.png",
+    "file": "games/bloxorz.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Duck Life",
+    "icon": "icons/ducklife.png",
+    "file": "games/ducklife.html",
+    "tags": ["simulation", "strategy"]
+  },
+  {
+    "title": "Duck Life 2",
+    "icon": "icons/ducklife2.png",
+    "file": "games/ducklife2.html",
+    "tags": ["simulation", "strategy"]
+  },
+  {
+    "title": "Duck Life 3",
+    "icon": "icons/ducklife3.png",
+    "file": "games/ducklife3.html",
+    "tags": ["simulation", "strategy"]
+  },
+  {
+    "title": "Duck Life 4",
+    "icon": "icons/ducklife4.png",
+    "file": "games/ducklife4.html",
+    "tags": ["simulation", "strategy"]
+  },
+  {
+    "title": "Fallout",
+    "icon": "icons/fallout.png",
+    "file": "games/fallout.html",
+    "tags": ["strategy", "action", "classic", "featured"]
+  },
+  {
+    "title": "Fancy Pants Adventure",
+    "icon": "icons/fancypantsadventure.png",
+    "file": "games/fancypantsadventure.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Fancy Pants Adventure 2",
+    "icon": "icons/fancypantsadventure2.png",
+    "file": "games/fancypantsadventure2.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Fancy Pants Adventure 3",
+    "icon": "icons/fancypantsadventure3.png",
+    "file": "games/fancypantsadventure3.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Fireboy and Watergirl",
+    "icon": "icons/fireboyandwatergirl.png",
+    "file": "games/fireboyandwatergirl.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Gangster Bros.",
+    "icon": "icons/gangsterbros.png",
+    "file": "games/gangsterbros.html",
+    "tags": ["platformer", "action"]
+  },
+  {
+    "title": "Happy Wheels",
+    "icon": "icons/happywheels.png",
+    "file": "games/happywheels.html",
+    "tags": ["physics", "arcade"]
+  },
+  {
+    "title": "Impossible Quiz",
+    "icon": "icons/impossiblequiz.png",
+    "file": "games/impossiblequiz.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Impossible Quiz 2",
+    "icon": "icons/impossiblequiz2.png",
+    "file": "games/impossiblequiz2.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Koopa's Revenge",
+    "icon": "icons/koopasrevenge.png",
+    "file": "games/koopasrevenge.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Koopa's Revenge 2",
+    "icon": "icons/koopasrevenge2.png",
+    "file": "games/koopasrevenge2.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "Learn to Fly",
+    "icon": "icons/learntofly.png",
+    "file": "games/learntofly.html",
+    "tags": ["physics", "simulation"]
+  },
+  {
+    "title": "Learn to Fly 2",
+    "icon": "icons/learntofly2.png",
+    "file": "games/learntofly2.html",
+    "tags": ["physics", "simulation"]
+  },
+  {
+    "title": "Learn to Fly 3",
+    "icon": "icons/learntofly3.png",
+    "file": "games/learntofly3.html",
+    "tags": ["physics", "simulation"]
+  },
+  {
+    "title": "Meatboy",
+    "icon": "icons/meatboy.png",
+    "file": "games/meatboy.html",
+    "tags": ["physics", "action", "featured"]
+  },
+  {
+    "title": "Minecraft Tower Defense",
+    "icon": "icons/minecrafttowerdefense.png",
+    "file": "games/minecrafttowerdefense.html",
+    "tags": ["strategy"]
+  },
+  {
+    "title": "Motherload",
+    "icon": "icons/motherload.png",
+    "file": "games/motherload.html",
+    "tags": ["adventure", "simulation", "featured"]
+  },
+  {
+    "title": "My Friend Pedro",
+    "icon": "icons/myfriendpedro.png",
+    "file": "games/myfriendpedro.html",
+    "tags": ["shooter", "action"]
+  },
+  {
+    "title": "Orange Roulette",
+    "icon": "icons/orangeroulette.png",
+    "file": "games/orangeroulette.html",
+    "tags": ["simulation"]
+  },
+  {
+    "title": "Peggle",
+    "icon": "icons/peggle.png",
+    "file": "games/peggle.html",
+    "tags": ["puzzle", "arcade"]
+  },
+  {
+    "title": "QWOP",
+    "icon": "icons/qwop.png",
+    "file": "games/qwop.html",
+    "tags": ["physics", "arcade"]
+  },
+  {
+    "title": "Raftwars",
+    "icon": "icons/raftwars.png",
+    "file": "games/raftwars.html",
+    "tags": ["shooter", "strategy"]
+  },
+  {
+    "title": "Raft Wars 2",
+    "icon": "icons/raftwars2.png",
+    "file": "games/raftwars2.html",
+    "tags": ["shooter", "strategy"]
+  },
+  {
+    "title": "Run",
+    "icon": "icons/run.png",
+    "file": "games/run.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "Run 2",
+    "icon": "icons/run2.png",
+    "file": "games/run2.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "Scary Maze Game",
+    "icon": "icons/scarymazegame.png",
+    "file": "games/scarymazegame.html",
+    "tags": ["horror", "puzzle"]
+  },
+  {
+    "title": "SMB Crossover",
+    "icon": "icons/smbcrossover.png",
+    "file": "games/smbcrossover.html",
+    "tags": ["platformer", "featured"]
+  },
+  {
+    "title": "Henry-Stickman: Infiltrating the Airship",
+    "icon": "icons/stickminairship.png",
+    "file": "games/stickminairship.html",
+    "tags": ["adventure", "puzzle"]
+  },
+  {
+    "title": "Henry-Stickman: Breaking the Bank",
+    "icon": "icons/stickminbreakingbank.png",
+    "file": "games/stickminbreakingbank.html",
+    "tags": ["adventure", "puzzle"]
+  },
+  {
+    "title": "Henry-Stickman: Escaping the Prison",
+    "icon": "icons/stickminescapingprison.png",
+    "file": "games/stickminescapingprison.html",
+    "tags": ["adventure", "puzzle"]
+  },
+  {
+    "title": "Henry-Stickman: Fleeing the Complex",
+    "icon": "icons/stickminfleecomplex.png",
+    "file": "games/stickminfleecomplex.html",
+    "tags": ["adventure", "puzzle"]
+  },
+  {
+    "title": "Henry-Stickman: Stealing the Diamond",
+    "icon": "icons/stickminstealingdiamond.png",
+    "file": "games/stickminstealingdiamond.html",
+    "tags": ["adventure", "puzzle"]
+  },
+  {
+    "title": "Trollface Quest",
+    "icon": "icons/trollfacequest.png",
+    "file": "games/trollfacequest.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Tuper-Tario-Tros.",
+    "icon": "icons/tupertariotros.png",
+    "file": "games/tupertariotros.html",
+    "tags": ["platformer", "puzzle"]
+  },
+  {
+    "title": "VVVVVV",
+    "icon": "icons/vvvvvv.png",
+    "file": "games/vvvvvv.html",
+    "tags": ["platformer"]
+  },
+  {
+    "title": "World's Hardest Game",
+    "icon": "icons/worldshardestgame.png",
+    "file": "games/worldshardestgame.html",
+    "tags": ["puzzle"]
+  },
+  {
+    "title": "Aim Trainer",
+    "icon": "icons/aimtrainer.png",
+    "file": "games/aimtrainer.html",
+    "tags": ["arcade", "shooter"]
+  },
+  {
+    "title": "Copter Crusade",
+    "icon": "icons/coptergame.png",
+    "file": "games/coptergame.html",
+    "tags": ["arcade", "featured"]
+  },
+  {
+    "title": "Snake Arena",
+    "icon": "icons/snakearena.png",
+    "file": "games/snakearena.html",
+    "tags": ["arcade", "featured"]
+  }
+]
