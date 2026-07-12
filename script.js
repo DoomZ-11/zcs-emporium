@@ -173,7 +173,7 @@ function createNavLinks() {
     });
 }
 
-function launchGame() {
+async function launchGame() {
     closeStartWindow();
 
     resetGameZoom();
@@ -193,7 +193,12 @@ function launchGame() {
 
     const frame = document.getElementById("game-frame");
 
-    frame.src = currentSelectedGame.file;
+    const html = await fetch(currentSelectedGame.file).then(r => r.text());
+
+    const doc = frame.contentWindow.document;
+    doc.open();
+    doc.write(html);
+    doc.close();
 }
 function openInNewTab() {
     closeStartWindow();
