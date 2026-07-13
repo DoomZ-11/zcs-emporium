@@ -770,6 +770,31 @@ body.hide-scrollbar::-webkit-scrollbar {
     z-index: 20;
 }
 
+/* |========== Click to Focus ==========| */
+
+#click-to-focus {
+    display: flex;
+
+    position: fixed;
+
+    height: 100%;
+    width: 100%;
+
+    font-size: min(2.5rem, 5vw);
+    text-align: center;
+
+    text-shadow: 0.3vw 0.3vw 0 var(--shadow-light);
+
+    color: var(--text-color);
+
+    background: #000000ee;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 99;
+}
+
 /* |========== Background ==========| */
 
 .bg-layer-1,

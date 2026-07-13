@@ -490,11 +490,13 @@ function resetGameZoom() {
 
 function setGlobalEventListeners() {
     const startWindow = document.getElementById("game-start-window");
-    const isOnSite =
+    const focusWindow = document.getElementById("click-to-focus");
+
+    const isOnMainSite =
         location.href.startsWith("https://doomz-11.github.io/zcs-emporium/");
 
     document.addEventListener("click", (event) => {
-        if (!document.fullscreenElement && !isOnSite) {
+        if (!document.fullscreenElement && !isOnMainSite) {
             document.documentElement.requestFullscreen();
         }
 
@@ -502,6 +504,16 @@ function setGlobalEventListeners() {
             closeStartWindow();
         }
     });
+
+    if (!isOnMainSite) {
+        focusWindow.classList.remove("hidden");
+
+        document.addEventListener("fullscreenchange", () => {
+            if (document.fullscreenElement) {
+                focusWindow.classList.add("hidden");
+            }
+        })
+    }
 
     window.addEventListener("beforeunload", (event) => {
         event.preventDefault();
