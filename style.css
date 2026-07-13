@@ -780,14 +780,14 @@ body.hide-scrollbar::-webkit-scrollbar {
     height: 100%;
     width: 100%;
 
-    font-size: min(2.5rem, 5vw);
+    font-size: min(2rem, 4vw);
     text-align: center;
 
     text-shadow: 0.3vw 0.3vw 0 var(--shadow-light);
 
     color: var(--text-color);
 
-    background: #000000ee;
+    background: #000000be;
 
     justify-content: center;
     align-items: center;
