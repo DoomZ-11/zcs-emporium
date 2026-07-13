@@ -200,6 +200,7 @@ async function launchGame() {
     doc.write(html);
     doc.close();
 }
+
 function openInNewTab() {
     closeStartWindow();
 
@@ -461,11 +462,7 @@ function showAllCategories() {
 function toggleFullscreen() {
     const frame = document.getElementById("game-frame");
 
-    if (!document.fullscreenElement) {
-        frame.requestFullscreen();
-    } else {
-        document.exitFullscreen();
-    }
+    frame.requestFullscreen();
 }
 
 function applyGameZoom() {
@@ -493,8 +490,14 @@ function resetGameZoom() {
 
 function setGlobalEventListeners() {
     const startWindow = document.getElementById("game-start-window");
+    const isOnSite =
+        location.href.startsWith("https://doomz-11.github.io/zcs-emporium/");
 
     document.addEventListener("click", (event) => {
+        if (!document.fullscreenElement && !isOnSite) {
+            document.documentElement.requestFullscreen();
+        }
+
         if (!startWindow.contains(event.target) && startWindowOpen) {
             closeStartWindow();
         }
