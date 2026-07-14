@@ -10,7 +10,7 @@ let gameZoom = 1;
 
 let curDemoShift = 0;
 
-let totalFocusMessagesShown = 0;
+let totalFocusMessagesShown = 1;
 
 function initializeUI() {
     fetch('game-data.json')
