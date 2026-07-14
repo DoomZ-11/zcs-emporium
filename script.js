@@ -6,10 +6,11 @@ let iconElements = [];
 let startWindowOpen = false;
 
 let currentSelectedGame = null;
+let gameZoom = 1;
 
 let curDemoShift = 0;
 
-let gameZoom = 1;
+let totalFocusMessagesShown = 0;
 
 function initializeUI() {
     fetch('game-data.json')
@@ -512,7 +513,11 @@ function setGlobalEventListeners() {
             if (document.fullscreenElement) {
                 focusWindow.classList.add("hidden");
             }
-        })
+            else if (totalFocusMessagesShown < 3) {
+                focusWindow.classList.remove("hidden");
+                totalFocusMessagesShown++;
+            }
+        });
     }
 
     window.addEventListener("beforeunload", (event) => {
