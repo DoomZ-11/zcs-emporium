@@ -513,7 +513,7 @@ function setGlobalEventListeners() {
             if (document.fullscreenElement) {
                 focusWindow.classList.add("hidden");
             }
-            else if (totalFocusMessagesShown < 3) {
+            else if (totalFocusMessagesShown < 5) {
                 focusWindow.classList.remove("hidden");
                 totalFocusMessagesShown++;
             }
