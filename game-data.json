@@ -1475,6 +1475,15 @@
     ]
   },
   {
+    "title": "Power-Putt",
+    "icon": "icons/powerputt.png",
+    "file": "games/powerputt.html",
+    "tags": [
+      "platformer",
+      "arcade"
+    ]
+  },
+  {
     "title": "Push Your Luck",
     "icon": "icons/pushyourluck.png",
     "file": "games/pushyourluck.html",
