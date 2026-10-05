@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="ZC's Online Emporium - A collection of online browser games.">
         <meta name="theme-color" content="#000000">
-        <base href="https://raw.githack.com/DoomZ-11/zcs-emporium/main/">
+        <!--<base href="https://raw.githack.com/DoomZ-11/zcs-emporium/main/">-->
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
@@ -52,16 +52,21 @@
 
         <div class="sidebar">
             <input id="search-bar" type="text" placeholder="Search...", autocomplete="off">
-            <div id="nav-container"></div>
+            <div class="sidebar-label unselectable">Discover</div>
+            <div class="nav-container" id="discovery-container"></div>
+            <div class="sidebar-label unselectable">Genres</div>
+            <div class="nav-container" id="genre-container"></div>
             <div class="info-container unselectable">
-                v.1.0.0<br>
+                v.1.0.3<br>
                 ZC's Emporium
             </div>
         </div>
 
         <div id="welcome">Welcome to the Emporium!</div>
         
-        <div id="icons-container"></div>
+        <div id="library-container">
+            <div id="icon-container"></div>
+        </div>
 
         <div class="footer">
             <a href="https://forms.gle/TALuzCXY8oMQrTiV7" target="_blank">▶ Contact ◀</a>

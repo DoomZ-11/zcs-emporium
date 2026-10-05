@@ -21,6 +21,7 @@
     --secondary: #00212e;
 
     --border: #838383;
+    --card-border: #ffffff;
 
     /* Background */
     --bg-color: #000000;
@@ -128,7 +129,7 @@ body.hide-scrollbar::-webkit-scrollbar {
 
     box-shadow: var(--shadow-dark) 0 var(--border-width) 0;
 
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
     z-index: 15;
@@ -137,7 +138,7 @@ body.hide-scrollbar::-webkit-scrollbar {
     margin-top: 24px;
     margin-bottom: 24px;
 
-    font-size: clamp(0.75rem, 1.75vw, 2rem);
+    font-size: clamp(0.75rem, 1.5vw, 1.75rem);
     text-align: center;
 
     color: var(--text-color);
@@ -200,19 +201,43 @@ body.hide-scrollbar::-webkit-scrollbar {
 
 /* |========== Sidebar ==========| */
 
-#nav-container {
+.sidebar-label {
+    display: flex;
+
+    position: relative;
+
+    padding: 4px 8px;
+    margin: 16px 4px 0 0;
+
+    width: 100%;
+    height: auto;
+
+    font-size: 0.8rem;
+    text-align: left;
+
+    letter-spacing: 2.5px;
+
+    color: var(--text-color);
+
+    z-index: 13;
+}
+
+.nav-container {
     display: flex;
     flex-direction: column;
 
     position: relative;
 
-    gap: 0.1vw;
+    padding: 6px 0 6px 0;
     margin-top: var(--border-width);
 
     width: 100%;
     height: auto;
 
+    border-top: var(--border) var(--border-width) solid;
     border-bottom: var(--border) var(--border-width) solid;
+
+    background: #00000025;
 
     overflow-x: hidden;
     white-space: nowrap;
@@ -238,8 +263,6 @@ body.hide-scrollbar::-webkit-scrollbar {
     text-align: left;
 
     color: var(--text-color-darkened);
-
-    background: #00000025;
 
     transition: 
         transform 0.1s ease-out,
@@ -284,8 +307,8 @@ body.hide-scrollbar::-webkit-scrollbar {
 #search-bar {
     position: relative;
 
+    padding-left: 8px;
     margin: 0;
-    padding-left: 16px;
 
     width: 100%;
     min-height: 32px;
@@ -417,7 +440,7 @@ body.hide-scrollbar::-webkit-scrollbar {
 
 /* |========== Game Browser ==========| */
 
-#icons-container {
+#library-container {
     display: flex;
     flex-direction: column;
 
@@ -433,7 +456,7 @@ body.hide-scrollbar::-webkit-scrollbar {
     align-self: flex-end;
 }
 
-.section-container {
+#icon-container {
     display: grid;
 
     grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
@@ -475,12 +498,11 @@ body.hide-scrollbar::-webkit-scrollbar {
 
     margin-left: 40px;
 
-    height: 12px;
+    height: var(--border-width);
     flex: 1;
 
-    background: url('images/img_divider_00.png');
-    background-repeat: repeat-x;
-    background-size: auto 100%;
+    background: var(--card-border);
+    box-shadow: var(--border-width) var(--border-width) 0 var(--shadow-light);
 
     image-rendering: pixelated;
 }
@@ -489,13 +511,12 @@ body.hide-scrollbar::-webkit-scrollbar {
 
     margin-right: 40px;
 
-    height: 12px;
+    height: var(--border-width);
     flex: 1;
 
-    background: url('images/img_divider_00.png');
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-
+    background: var(--card-border);
+    box-shadow: var(--border-width) var(--border-width) 0 var(--shadow-light);
+    
     image-rendering: pixelated;
 }
 
@@ -503,11 +524,21 @@ body.hide-scrollbar::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
 
-    gap: 2.5rem;
+    width: clamp(96px, 14vw, 240px);
+
+    box-shadow: var(--border-width) var(--border-width) 0 var(--shadow-light);
+    
+    border: var(--card-border) var(--border-width) solid;
+
+    transition: 0.1s ease-out;
 
     align-items: center;
 
     cursor: pointer;
+}
+.game-card:hover {
+    transform: translateY(-16px) scale(1.025);
+    /*animation: card-hover 0.5 ease-out infinite;*/
 }
 
 .game-icon {
@@ -515,48 +546,23 @@ body.hide-scrollbar::-webkit-scrollbar {
 
     position: relative;
 
-    width: clamp(96px, 10vw, 160px);
+    padding: 8px;
+
+    width: 100%;
     aspect-ratio: 1;
 
-    background-image: none;
-    background-size: 100% 100%;
-
-    transition: 0.1s ease-out;
+    background: #000000;
 
     justify-content: center;
     align-items: center;
 
-    z-index: 1;
-}
-.game-icon:hover {
-    transform: translateY(-8px);
-}
-.game-icon::before {
-    content: "";
-
-    position: absolute;
-
-    width: clamp(128px, 14vw, 224px);
-    aspect-ratio: 1;
-
-    background: url('images/img_iconborder.png');
-    background-size: 100% 100%;
-
-    image-rendering: pixelated;
-
-    transition: 0.1s ease-out;
-
     z-index: 0;
-}
-.game-icon:hover::before {
-    background: url('images/img_iconborder_selected.png');
-    background-size: 100% 100%;
 }
 
 .game-image {
     position: relative;
 
-    width: clamp(96px, 10vw, 160px);
+    width: 100%;
     aspect-ratio: 1;
 
     background-size: 100% 100%;
@@ -567,14 +573,21 @@ body.hide-scrollbar::-webkit-scrollbar {
 .game-title {
     display: flex;
 
-    width: clamp(128px, 14vw, 256px);
+    padding: 8px;
 
-    font-size: clamp(0.5rem, 1vw, 2rem);
+    width: 100%;
+    flex: 1;
+
+    font-size: 0.9rem;
     text-align: center;
 
     text-shadow: 2.5px 2.5px 0 var(--shadow-light);
 
     color: var(--text-color);
+
+    border-top: var(--card-border) var(--border-width) solid;;
+
+    background: #000000;
 
     justify-content: center;
     align-items: center;

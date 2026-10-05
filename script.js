@@ -1,7 +1,5 @@
-let categories = [];
-
-let categoryElements = [];
-let iconElements = [];
+let iconData = [];
+let globalTags = [];
 
 let startWindowOpen = false;
 
@@ -18,59 +16,42 @@ function initializeUI() {
     .then((games) => {
         games.sort((a, b) => a.title.localeCompare(b.title));
 
-        loadSectionContainer("All Games");
+        loadLibraryLabel();
 
-        games.forEach((game) => {
-            processGame(game);
-        });
-
-        createSections();
+        games.forEach((game) => getIconData(game));
+        
         createIcons();
 
         createNavLinks();
     });
 }
 
-function processGame(game) {
-    game.tags.forEach((tag) => {
-        if (!categories.includes(tag)) {
-            loadSectionContainer(tag);
-        }
+function loadLibraryLabel() {
+    const libraryContainer = document.getElementById("library-container");
 
-        loadIcon(game, tag);
-    });
-
-    loadIcon(game, "All Games");
-}
-
-function loadSectionContainer(tag) {
-    if (categories.includes(tag)) {
+    if (!libraryContainer) {
+        console.warn(`Unable to find element by id 'library-container'`);
         return;
     }
 
-    categories.push(tag);
-
-    categories.sort();
-
     const label = document.createElement("div");
+    label.classList.add("section-label");
+    label.classList.add("unselectable");
+    label.id = "library-label";
 
-    label.textContent = capitalize(tag);
-    label.className = "section-label unselectable";
+    label.textContent = "All Games";
 
-    const categoryContainer = document.createElement("div");
-
-    categoryContainer.className = "section-container";
-
-    categoryElements.push({
-        tag,
-        label,
-        container: categoryContainer
-    });
+    libraryContainer.prepend(label);
 }
 
-function loadIcon(game, tag) {
-    const gameCard = document.createElement("div");
+function getIconData(game) {
+    game.tags.forEach((tag) => {
+        if (!globalTags.includes(tag)) {
+            globalTags.push(tag);
+        }
+    })
 
+    const gameCard = document.createElement("div");
     gameCard.className = "game-card";
     
     const icon = document.createElement("div");
@@ -85,7 +66,6 @@ function loadIcon(game, tag) {
     gameCard.append(icon);
 
     const title = document.createElement("div");
-
     title.textContent = game.title;
     title.className = "game-title unselectable";
 
@@ -95,82 +75,63 @@ function loadIcon(game, tag) {
         openStartWindow(game);
     });
 
-    iconElements.push({
+    iconData.push({
         game,
-        gameCard,
-        tag
+        gameCard
     });
 }
 
-function createSections() {
-    const iconsContainer = document.getElementById("icons-container");
-
-    if (!iconsContainer) {
-        console.warn(`Unable to find element id 'icons-container'`);
-        return;
-    }
-
-    categoryElements.sort((a, b) => a.tag.localeCompare(b.tag));
-
-    const allIndex = categoryElements.findIndex(category => category.tag === "All Games");
-
-    if (allIndex !== -1) {
-        categoryElements.push(categoryElements.splice(allIndex, 1)[0]);
-    }
-
-    const featuredIndex = categoryElements.findIndex(category => category.tag === "featured");
-
-    if (featuredIndex !== -1) {
-        const [element] = categoryElements.splice(featuredIndex, 1);
-
-        categoryElements.unshift(element);
-    }
-
-    categoryElements
-        .forEach(section => {
-            iconsContainer.append(section.label);
-            iconsContainer.append(section.container);
-        });
-}
-
 function createIcons() {
-    iconElements
-        .forEach((icon) => {
-            const category = categoryElements.find(category => category.tag === icon.tag);
+    const iconContainer = document.getElementById("icon-container");
 
-            if (!category) {
-                console.warn(`No category found for tag "${icon.tag}"`);
-                return;
-            }
-
-            category.container.append(icon.gameCard);
-        });
+    iconData
+    .forEach((icon) => {
+        iconContainer.append(icon.gameCard);
+    });
 }
 
 function createNavLinks() {
-    const navContainer = document.getElementById("nav-container");
+    const discoveryContainer = document.getElementById("discovery-container");
 
-    let i = 0;
-    categoryElements.forEach((category) => {
+    const allGamesNav = document.createElement("div");
+    allGamesNav.classList.add("nav-link");
+    allGamesNav.classList.add("unselectable");
+
+    allGamesNav.textContent = "▶ All Games";
+    
+    allGamesNav.addEventListener("click", () => {
+        filterGames("", true);
+    });
+
+    const featuredNav = document.createElement("div");
+    featuredNav.classList.add("nav-link");
+    featuredNav.classList.add("unselectable");
+
+    featuredNav.textContent = "▶ Featured";
+    featuredNav.style.color = "#ffff00";
+
+    featuredNav.addEventListener("click", () => {
+        filterFeaturedGames();
+    });
+
+    discoveryContainer.append(allGamesNav);
+    discoveryContainer.append(featuredNav);
+
+    globalTags.sort((a, b) => a.localeCompare(b));
+
+    const genreContainer = document.getElementById("genre-container");
+
+    globalTags.forEach((tag) => {
         const nav = document.createElement("div");
 
-        nav.textContent = ` > ${capitalize(category.tag)} (${category.container.children.length})`;
+        nav.textContent = `▶ ${capitalize(tag)}`;
         nav.className = "nav-link unselectable";
 
-        if (category.tag === "featured") {
-            nav.style.color = `#00ff00`;
-        }
-
         nav.addEventListener("click", () => {
-            category.label.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
+            filterGames(capitalize(tag), false);
         })
 
-        navContainer.append(nav);
-
-        i++;
+        genreContainer.append(nav);
     });
 }
 
@@ -244,32 +205,28 @@ function openStartWindow(game) {
     currentSelectedGame = game;
 
     const darkOverlay = document.getElementById("dark-overlay");
-
     darkOverlay.classList.remove("hidden");
 
     darkOverlay.classList.remove("fade-out");
     darkOverlay.classList.add("fade-in");
 
     const startWindow = document.getElementById("game-start-window");
-
     startWindow.classList.remove("hidden");
 
     startWindow.classList.remove("y-scale-disappear");
     startWindow.classList.add("y-scale-appear");
 
     const previewIcon = document.getElementById("start-window-icon");
-
     previewIcon.style.backgroundImage = `url('${game.icon}')`;
 
     const tagsDisplay = document.getElementById("start-window-tags");
-
-    tagsDisplay.textContent = `Tags: `;
+    tagsDisplay.textContent = "";
 
     game.tags.forEach((tag, index) => {
         tagsDisplay.textContent += `${capitalize(tag)}`;
 
         if (index !== game.tags.length - 1) {
-            tagsDisplay.textContent += `, `;
+            tagsDisplay.textContent += ` • `;
         }
     });
 
@@ -310,6 +267,7 @@ function updateWelcomeText(tarText){
 
     Array.from(text.children).forEach((span, index) => {
         span.classList.add('welcome-anim');
+        span.classList.add('unselectable');
         span.style.animationDelay = `${-index * 0.06}s`;
     });
 
@@ -394,69 +352,62 @@ async function getGamesWithDemos() {
     const res = await fetch('game-data.json');
     const games = await res.json();
 
-    return games.filter(game => game.demo);
+    return games.filter((game) => game.demo);
 }
 
 function initalizeSearchBar() {
     const searchBar = document.getElementById("search-bar");
 
     searchBar.addEventListener(("input"), (event) => {
-        filterGames(event.target.value);
+        filterGames(event.target.value, true);
     });
 }
 
-function filterGames(search) {
-    categoryElements.forEach(category => {
-        if (category.tag === "All Games") {
-            category.label.scrollIntoView({
-                behavior: "instant"
-            });
-        }
-    });
-
-    setAllGamesLabel(search);
+function filterGames(search, isSearch) {
+    setLibraryLabel(search, isSearch);
 
     search = search.trim().toLowerCase();
 
-    if (search !== "") {
-        showOnlyAllGames();
-    }
-    else {
-        showAllCategories();
-    }
-
-    iconElements.forEach(icon => {
+    iconData.forEach((icon) => {
         const matches = 
             search === "" ||
             icon.game.title.toLowerCase().includes(search) ||
-            icon.game.tags.some(tag =>
+            icon.game.tags.some((tag) =>
                 tag.toLowerCase().includes(search));
 
         icon.gameCard.style.display = matches ? "" : "none";
     });
+
+    scrollToTopOfGames();
 }
 
-function setAllGamesLabel(search) {
-    categoryElements.forEach(category => {
-        if (category.tag === "All Games") {
-            category.label.textContent = search !== "" ? `Showing results for: '${search}'` : "All Games";
-        }
+function filterFeaturedGames() {
+    setLibraryLabel("Featured", false);
+
+    iconData.forEach((icon) => {
+        icon.gameCard.style.display = icon.game.isFeatured ? "" : "none";
     });
+
+    scrollToTopOfGames();
 }
 
-function showOnlyAllGames() {
-    categoryElements.forEach(category => {
-        const visible = category.tag === "All Games";
+function setLibraryLabel(filter, isSearch) {
+    const libraryLabel = document.getElementById("library-label");
 
-        category.label.style.display = visible ? "" : "none";
-        category.container.style.display = visible ? "" : "none";
-    });
+    if (isSearch) {
+        libraryLabel.textContent = filter !== "" ? `Showing results for: '${filter}'` : "All Games";
+    } else {
+        libraryLabel.textContent = filter;
+    }
+    
 }
 
-function showAllCategories() {
-    categoryElements.forEach(category => {
-        category.label.style.display = "";
-        category.container.style.display = "";
+function scrollToTopOfGames() {
+    const libraryLabel = document.getElementById("library-label");
+
+    libraryLabel.scrollIntoView({ 
+        behavior: "auto", 
+        block: "start"
     });
 }
 
