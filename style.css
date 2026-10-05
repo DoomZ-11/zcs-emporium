@@ -538,7 +538,6 @@ body.hide-scrollbar::-webkit-scrollbar {
 }
 .game-card:hover {
     transform: translateY(-16px) scale(1.025);
-    /*animation: card-hover 0.5 ease-out infinite;*/
 }
 
 .game-icon {
@@ -704,7 +703,6 @@ body.hide-scrollbar::-webkit-scrollbar {
     font-size: 2vw;
 
     text-align: center;
-    text-shadow: 4px 4px 0 var(--shadow-dark);
 
     color: var(--text-color-darkened);
 
