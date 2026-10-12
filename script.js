@@ -103,6 +103,20 @@ function createNavLinks() {
         filterGames("", true);
     });
 
+    discoveryContainer.append(allGamesNav);
+
+    const exclusiveNav = document.createElement("div");
+    exclusiveNav.classList.add("nav-link");
+    exclusiveNav.classList.add("unselectable");
+
+    exclusiveNav.textContent = "▶ ZC Exclusives";
+
+    exclusiveNav.addEventListener("click", () => {
+        filterExclusiveGames();
+    });
+
+    discoveryContainer.append(exclusiveNav);
+
     const featuredNav = document.createElement("div");
     featuredNav.classList.add("nav-link");
     featuredNav.classList.add("unselectable");
@@ -114,7 +128,6 @@ function createNavLinks() {
         filterFeaturedGames();
     });
 
-    discoveryContainer.append(allGamesNav);
     discoveryContainer.append(featuredNav);
 
     globalTags.sort((a, b) => a.localeCompare(b));
@@ -376,6 +389,16 @@ function filterGames(search, isSearch) {
                 tag.toLowerCase().includes(search));
 
         icon.gameCard.style.display = matches ? "" : "none";
+    });
+
+    scrollToTopOfGames();
+}
+
+function filterExclusiveGames() {
+    setLibraryLabel("ZC Exclusives (made by me)", false);
+
+    iconData.forEach((icon) => {
+        icon.gameCard.style.display = icon.game.isExclusive ? "" : "none";
     });
 
     scrollToTopOfGames();

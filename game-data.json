@@ -7,7 +7,8 @@
       "shooter",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "20 Small Mazes",
@@ -16,7 +17,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "2048",
@@ -25,7 +27,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "2Doom",
@@ -35,7 +38,8 @@
       "shooter",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "3Dash",
@@ -45,7 +49,8 @@
       "platformer",
       "rhythm"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "500 Caliber Contractz",
@@ -55,7 +60,8 @@
       "shooter",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "8-Ball Classic",
@@ -65,7 +71,8 @@
       "simulation",
       "sports"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "90071992...",
@@ -74,7 +81,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "99 Balls",
@@ -84,7 +92,8 @@
       "arcade",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "A Dance of Fire and Ice",
@@ -93,7 +102,8 @@
     "tags": [
       "rhythm"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "A Dark Room",
@@ -102,7 +112,8 @@
     "tags": [
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "A Day in the Office",
@@ -112,7 +123,8 @@
       "adventure",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Adventure Capitalist",
@@ -122,7 +134,8 @@
       "idle",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Ages of Conflict",
@@ -132,7 +145,8 @@
       "strategy",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Aim Trainer",
@@ -142,7 +156,8 @@
       "arcade",
       "shooter"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Airline Tycoon",
@@ -152,7 +167,8 @@
       "simulation",
       "idle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Alien Hominid",
@@ -162,7 +178,8 @@
       "shooter",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Allocation",
@@ -172,7 +189,8 @@
       "puzzle",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Amorphous",
@@ -182,7 +200,8 @@
       "action",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Ancient Sins",
@@ -192,7 +211,8 @@
       "horror",
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Angry Birds Space",
@@ -202,7 +222,8 @@
       "puzzle",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Anti-matter Dimensions",
@@ -212,7 +233,8 @@
       "idle",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Arachnid",
@@ -222,7 +244,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": true
   },
   {
     "title": "Ascent",
@@ -232,7 +255,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Asteroids",
@@ -242,7 +266,8 @@
       "arcade",
       "shooter"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Babel Tower",
@@ -252,7 +277,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bad Piggies",
@@ -262,7 +288,8 @@
       "puzzle",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Baldi's Basics",
@@ -272,7 +299,8 @@
       "horror",
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Basket Random",
@@ -282,7 +310,8 @@
       "sports",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Big Ice Tower vs. Tiny Square",
@@ -291,7 +320,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Big Neon Tower vs. Tiny Square",
@@ -300,7 +330,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Big Tower vs. Tiny Square",
@@ -310,7 +341,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Big Tower vs. Tiny Square 2",
@@ -320,7 +352,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Binding of Isaac: Flash",
@@ -330,7 +363,8 @@
       "roguelike",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Black Jack",
@@ -339,7 +373,8 @@
     "tags": [
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Blastronaut",
@@ -349,7 +384,8 @@
       "action",
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Blockblast",
@@ -359,7 +395,8 @@
       "puzzle",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Blood",
@@ -370,7 +407,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloons",
@@ -380,7 +418,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloons 2",
@@ -390,7 +429,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloons Tower Defense",
@@ -401,7 +441,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloons Tower Defense 2",
@@ -412,7 +453,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloons Tower Defense 3",
@@ -423,7 +465,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloons Tower Defense 4",
@@ -434,7 +477,8 @@
       "strategy",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Bloxors",
@@ -443,7 +487,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Boxing Random",
@@ -453,7 +498,8 @@
       "sports",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Captchaware",
@@ -462,7 +508,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Castle Wars Modern",
@@ -472,7 +519,8 @@
       "strategy",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Cat Mario",
@@ -481,7 +529,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Cave Story",
@@ -492,7 +541,8 @@
       "action",
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Cell Machine",
@@ -502,7 +552,8 @@
       "puzzle",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Cheese is the Reason",
@@ -511,7 +562,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Cheese Rolling",
@@ -520,7 +572,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Chess Classic",
@@ -529,7 +582,8 @@
     "tags": [
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "CircloO2",
@@ -539,7 +593,8 @@
       "puzzle",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Coffee Maker",
@@ -548,7 +603,8 @@
     "tags": [
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Cookie Clicker",
@@ -558,7 +614,8 @@
       "idle",
       "simulation"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Copter Crusade",
@@ -568,7 +625,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": true
   },
   {
     "title": "Crank It!",
@@ -577,7 +635,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Crazy Cattle 3D",
@@ -587,7 +646,8 @@
       "action",
       "physics"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Crossy Road",
@@ -596,7 +656,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Cruelty Squad",
@@ -607,7 +668,8 @@
       "action",
       "adventure"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Cuphead",
@@ -619,7 +681,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Deepest Sword",
@@ -629,7 +692,8 @@
       "platformer",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Deltarune",
@@ -640,7 +704,8 @@
       "puzzle",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Doom",
@@ -651,7 +716,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Doom 2",
@@ -662,7 +728,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Duck Life",
@@ -672,7 +739,8 @@
       "simulation",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Duck Life 2",
@@ -682,7 +750,8 @@
       "simulation",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Duck Life 3",
@@ -692,7 +761,8 @@
       "simulation",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Duck Life 4",
@@ -702,7 +772,8 @@
       "simulation",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Duck Life Battle",
@@ -712,7 +783,8 @@
       "simulation",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Duke Nukem 2",
@@ -723,7 +795,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Duke Nukem 3D",
@@ -734,7 +807,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Dumb Ways to Die",
@@ -743,7 +817,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "EmulatorJS",
@@ -752,7 +827,8 @@
     "tags": [
       "emulator"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Endoparasitic",
@@ -763,7 +839,8 @@
       "simulation",
       "horror"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Endoparasitic 2",
@@ -774,7 +851,8 @@
       "simulation",
       "horror"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Evil Glitch",
@@ -784,7 +862,8 @@
       "shooter",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Evolution",
@@ -793,7 +872,8 @@
     "tags": [
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fallout",
@@ -804,7 +884,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Fancy Pants Adventure",
@@ -814,7 +895,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fancy Pants Adventure 2",
@@ -824,7 +906,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fancy Pants Adventure 3",
@@ -834,7 +917,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fear Assessment",
@@ -843,7 +927,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fears to Fathom Home Alone",
@@ -852,7 +937,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Feed the Void",
@@ -862,7 +948,8 @@
       "horror",
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fireboy and Watergirl",
@@ -871,7 +958,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fish",
@@ -882,7 +970,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "FNAF",
@@ -891,7 +980,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "FNAF2",
@@ -900,7 +990,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "FNAF3",
@@ -909,7 +1000,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "FNAF4",
@@ -918,7 +1010,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Fruit Ninja",
@@ -928,7 +1021,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Gangster Bros.",
@@ -938,7 +1032,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Geometry Dash - Lite",
@@ -948,7 +1043,8 @@
       "rhythm",
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Geometry Dash - Subzero",
@@ -958,7 +1054,8 @@
       "rhythm",
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Geometry Dash - World",
@@ -968,7 +1065,8 @@
       "rhythm",
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "George and the Printer",
@@ -977,7 +1075,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Golf Battle",
@@ -987,7 +1086,8 @@
       "sports",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Google Dino",
@@ -996,7 +1096,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Granny",
@@ -1005,7 +1106,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Granny 2",
@@ -1014,7 +1116,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Gravity Mod",
@@ -1024,7 +1127,8 @@
       "physics",
       "sandbox"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Gun Knight",
@@ -1034,7 +1138,8 @@
       "action",
       "roguelike"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Half-Life 1",
@@ -1046,7 +1151,8 @@
       "adventure",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Half-Life: Opposing Force",
@@ -1058,7 +1164,8 @@
       "adventure",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Happy Wheels",
@@ -1068,7 +1175,8 @@
       "physics",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Henry-Stickman: Breaking the Bank",
@@ -1078,7 +1186,8 @@
       "adventure",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Henry-Stickman: Escaping the Prison",
@@ -1088,7 +1197,8 @@
       "adventure",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Henry-Stickman: Fleeing the Complex",
@@ -1098,7 +1208,8 @@
       "adventure",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Henry-Stickman: Infiltrating the Airship",
@@ -1108,7 +1219,8 @@
       "adventure",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Henry-Stickman: Stealing the Diamond",
@@ -1118,7 +1230,8 @@
       "adventure",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Heretic",
@@ -1129,7 +1242,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Hill Climb Racing",
@@ -1139,7 +1253,8 @@
       "racing",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Hit 8ox",
@@ -1148,7 +1263,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Hollow Knight",
@@ -1158,7 +1274,8 @@
       "action",
       "arcade"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "I Wanna Be the Guy!",
@@ -1167,7 +1284,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Idle Breakout",
@@ -1177,7 +1295,8 @@
       "idle",
       "arcade"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Idle Dice",
@@ -1187,7 +1306,8 @@
       "idle",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Impossible Quiz",
@@ -1196,7 +1316,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Impossible Quiz 2",
@@ -1205,7 +1326,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Infinite Craft",
@@ -1215,7 +1337,8 @@
       "sandbox",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Iron Lung",
@@ -1225,7 +1348,8 @@
       "horror",
       "puzzle"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Jelly Mario",
@@ -1235,7 +1359,8 @@
       "platformer",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Jetpack Joyride",
@@ -1245,7 +1370,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Karlson",
@@ -1255,7 +1381,8 @@
       "action",
       "shooter"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Koopa's Revenge",
@@ -1264,7 +1391,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Koopa's Revenge 2",
@@ -1273,7 +1401,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Learn to Fly",
@@ -1283,7 +1412,8 @@
       "physics",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Learn to Fly 2",
@@ -1293,7 +1423,8 @@
       "physics",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Learn to Fly 3",
@@ -1303,7 +1434,8 @@
       "physics",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Level Devil",
@@ -1312,7 +1444,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Little Alchemy 2",
@@ -1322,7 +1455,8 @@
       "puzzle",
       "sandbox"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Mari0",
@@ -1332,7 +1466,8 @@
       "platformer",
       "puzzle"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Mario vs. Luigi",
@@ -1342,7 +1477,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Meatboy",
@@ -1352,7 +1488,8 @@
       "physics",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Mimic",
@@ -1361,7 +1498,8 @@
     "tags": [
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Minecraft 1.12.2",
@@ -1370,7 +1508,8 @@
     "tags": [
       "sandbox"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Minecraft 1.5.2",
@@ -1379,7 +1518,8 @@
     "tags": [
       "sandbox"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Minecraft 1.8.8",
@@ -1388,7 +1528,8 @@
     "tags": [
       "sandbox"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Minecraft Tower Defense",
@@ -1397,7 +1538,8 @@
     "tags": [
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Mini Crossword",
@@ -1406,7 +1548,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Motherload",
@@ -1416,7 +1559,8 @@
       "adventure",
       "simulation"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "MotoX3M",
@@ -1426,7 +1570,8 @@
       "racing",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "MotoX3M 2",
@@ -1436,7 +1581,8 @@
       "racing",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "MotoX3M 3",
@@ -1446,7 +1592,8 @@
       "racing",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "MotoX3M Spookyland",
@@ -1457,7 +1604,8 @@
       "physics",
       "horror"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "MotoX3M Winter",
@@ -1467,7 +1615,8 @@
       "racing",
       "physics"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Mr. Mine",
@@ -1477,7 +1626,8 @@
       "idle",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "My Friend Pedro",
@@ -1487,7 +1637,8 @@
       "shooter",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Nubby's Number Factory",
@@ -1497,7 +1648,8 @@
       "puzzle",
       "simulation"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Orange Roulette",
@@ -1506,7 +1658,8 @@
     "tags": [
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "OvO",
@@ -1515,7 +1668,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "OvO 2",
@@ -1524,7 +1678,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "OvO Dimensions",
@@ -1533,7 +1688,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Parking Fury",
@@ -1543,7 +1699,8 @@
       "racing",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Parking Fury 2",
@@ -1553,7 +1710,8 @@
       "racing",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Parking Fury 3",
@@ -1563,7 +1721,8 @@
       "racing",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Peggle",
@@ -1573,7 +1732,8 @@
       "puzzle",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "People Playground",
@@ -1584,7 +1744,8 @@
       "physics",
       "horror"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "PICO-8 Celeste",
@@ -1593,7 +1754,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Postal",
@@ -1604,7 +1766,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Power-Putt",
@@ -1614,7 +1777,8 @@
       "platformer",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": true
   },
   {
     "title": "Push Your Luck",
@@ -1623,7 +1787,8 @@
     "tags": [
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Quake",
@@ -1634,7 +1799,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Quake 3 Arena",
@@ -1645,7 +1811,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "QWOP",
@@ -1655,7 +1822,8 @@
       "physics",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Raft Wars",
@@ -1665,7 +1833,8 @@
       "shooter",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Raft Wars 2",
@@ -1675,7 +1844,8 @@
       "shooter",
       "strategy"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Red Handed",
@@ -1684,7 +1854,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Retro Bowl",
@@ -1694,7 +1865,8 @@
       "sports",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Retro Ping-Pong",
@@ -1704,7 +1876,8 @@
       "arcade",
       "sports"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Rhythm Game",
@@ -1713,7 +1886,8 @@
     "tags": [
       "rhythm"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Rooftop Snipers",
@@ -1723,7 +1897,8 @@
       "shooter",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Ruffle",
@@ -1732,7 +1907,8 @@
     "tags": [
       "emulator"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Run",
@@ -1741,7 +1917,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Run 2",
@@ -1750,7 +1927,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Run 3 ",
@@ -1759,7 +1937,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Scary Maze Game",
@@ -1769,7 +1948,8 @@
       "horror",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Slope",
@@ -1779,7 +1959,8 @@
       "platformer",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "SMB Crossover",
@@ -1788,7 +1969,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Snake Arena",
@@ -1797,7 +1979,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": true
   },
   {
     "title": "Snakelike",
@@ -1806,7 +1989,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Snow Rider 3D",
@@ -1816,7 +2000,8 @@
       "racing",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Soccer Random",
@@ -1826,7 +2011,8 @@
       "sports",
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Spelunky Classic",
@@ -1836,7 +2022,8 @@
       "platformer",
       "roguelike"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Stardew Valley",
@@ -1846,7 +2033,8 @@
       "adventure",
       "sandbox"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Stick With It",
@@ -1855,7 +2043,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Superhot",
@@ -1865,7 +2054,8 @@
       "shooter",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Table Tennis World Tour",
@@ -1874,7 +2064,8 @@
     "tags": [
       "sports"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Temple Run 2",
@@ -1884,7 +2075,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Terra",
@@ -1895,7 +2087,8 @@
       "simulation",
       "sandbox"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "The Cloverpit",
@@ -1905,7 +2098,8 @@
       "roguelike",
       "horror"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "There Is No Game",
@@ -1915,7 +2109,8 @@
       "puzzle",
       "adventure"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "This is the Only Level",
@@ -1925,7 +2120,8 @@
       "puzzle",
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "This is the Only Level 2",
@@ -1935,7 +2131,8 @@
       "puzzle",
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Tiny Fishing",
@@ -1945,7 +2142,8 @@
       "simulation",
       "idle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Tomb of the Mask",
@@ -1955,7 +2153,8 @@
       "arcade",
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Trollface Quest",
@@ -1964,7 +2163,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Tuper-Tario-Tros.",
@@ -1974,7 +2174,8 @@
       "platformer",
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Vampire Survivors",
@@ -1984,7 +2185,8 @@
       "roguelike",
       "action"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "Vortex",
@@ -1993,7 +2195,8 @@
     "tags": [
       "arcade"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "VVVVVV",
@@ -2002,7 +2205,8 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "We Become What We Behold",
@@ -2012,7 +2216,8 @@
       "adventure",
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Web Fishing",
@@ -2021,7 +2226,8 @@
     "tags": [
       "simulation"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Windows 3D Space Pinball",
@@ -2031,7 +2237,8 @@
       "arcade",
       "classic"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Wolfenstein 3D",
@@ -2042,7 +2249,8 @@
       "action",
       "classic"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "isExclusive": false
   },
   {
     "title": "World's Hardest Game",
@@ -2051,7 +2259,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Xor",
@@ -2060,7 +2269,8 @@
     "tags": [
       "puzzle"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Yohoho.io",
@@ -2069,7 +2279,8 @@
     "tags": [
       "action"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   },
   {
     "title": "Zrist",
@@ -2078,6 +2289,7 @@
     "tags": [
       "platformer"
     ],
-    "isFeatured": false
+    "isFeatured": false,
+    "isExclusive": false
   }
 ]
