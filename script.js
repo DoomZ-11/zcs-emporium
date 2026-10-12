@@ -109,7 +109,7 @@ function createNavLinks() {
     exclusiveNav.classList.add("nav-link");
     exclusiveNav.classList.add("unselectable");
 
-    exclusiveNav.textContent = "▶ ZC Exclusives";
+    exclusiveNav.textContent = "▶ Exclusives";
 
     exclusiveNav.addEventListener("click", () => {
         filterExclusiveGames();
@@ -395,7 +395,7 @@ function filterGames(search, isSearch) {
 }
 
 function filterExclusiveGames() {
-    setLibraryLabel("ZC Exclusives (made by me)", false);
+    setLibraryLabel("ZC Exclusives", false);
 
     iconData.forEach((icon) => {
         icon.gameCard.style.display = icon.game.isExclusive ? "" : "none";
