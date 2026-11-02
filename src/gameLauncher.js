@@ -63,7 +63,7 @@ export function openLauncherWindow() {
     launcherOpenAnimation();
 
     setLauncherTitle(curGame.title);
-    setPreviewIcon(new URL(`../icons/${curGame.icon}`, import.meta.url).href);
+    setPreviewIcon(`${document.baseURI}icons/${curGame.icon}`);
     setTagsDisplay(curGame.tags);
 
     resetPlayerZoom();
@@ -159,7 +159,7 @@ export function launchCurrentGame() {
 
     const gameFrame = document.getElementById("game-frame");
 
-    gameFrame.src = new URL(`../games/${curGame.file}`, import.meta.url).href;
+    gameFrame.src = `${document.baseURI}games/${curGame.file}`;
 }
 
 export function closeCurrentGame() {
@@ -181,7 +181,7 @@ export function openInNewTab() {
 
     const tab = window.open("about:blank", "_blank");
 
-    fetch(new URL(`../games/${curGame.file}`, import.meta.url))
+    fetch(`${document.baseURI}games/${curGame.file}`)
         .then(response => response.text())
         .then(html => {
             tab.document.open();
@@ -201,7 +201,7 @@ export function openInWindow() {
     if (curGame === null) return;
 
     const gameWindow = window.open(
-        new URL(`../games/${curGame.file}`, import.meta.url).href,
+        `${document.baseURI}games/${curGame.file}`,
         "_blank",
         "width=800,height=600,resizable=yes"
     );
