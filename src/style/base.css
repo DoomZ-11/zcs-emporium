@@ -1,12 +1,12 @@
-@import "./layout.css";
-@import "./components.css";
-@import "./animations.css";
+@import "/src/style/layout.css";
+@import "/src/style/components.css";
+@import "/src/style/animations.css";
 
 /* --- Fonts --- */
 
 @font-face {
     font-family: 'PressStart2P';
-    src: url('../../fonts/PressStart2P-Regular.ttf');
+    src: url('/fonts/PressStart2P-Regular.ttf');
 }
 
 /* --- Variables --- */
