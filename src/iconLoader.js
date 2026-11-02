@@ -45,7 +45,7 @@ function createIcon(game) {
 
     const image = document.createElement("img");
 
-    image.src = `../icons/${game.icon}`;
+    image.src = `icons/${game.icon}`;
     image.alt = game.title;
     image.loading = "lazy";
     image.classList.add("icon-image");

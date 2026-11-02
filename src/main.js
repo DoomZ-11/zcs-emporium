@@ -4,7 +4,6 @@ import { initalizeSearchBar } from "./searchGames.js";
 import { initalizeThemeButton } from "./uiTheme.js";
 import { initializeGameLauncher } from "./gameLauncher.js";
 import { initalizeFullscreenListeners } from "./fullscreenHandler.js";
-import { showOverlay } from "./backOverlay.js";
 
 function main() {
     console.log("DOM Successfully loaded!");
