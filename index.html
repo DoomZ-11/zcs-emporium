@@ -7,74 +7,151 @@
         <meta name="description" content="ZC's Online Emporium - A collection of online browser games.">
         <meta name="theme-color" content="#000000">
         <base href="https://cdn.jsdelivr.net/gh/DoomZ-11/zcs-emporium@main/">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./src/style/base.css">
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
     <body>
-        <div class="bg-layer-1"></div>
-        <div class="bg-layer-2"></div>
-        <div class="bg-layer-3"></div>
+        <div class="click-to-focus hidden" id="click-to-focus">Click Window to Focus</div>
 
-        <div id="click-to-focus" class="hidden">Click Window to Focus</div>
+        <div class="back-overlay hidden" id="back-overlay"></div>
 
-        <div id="dark-overlay" class="hidden"></div>
-
-        <div id="header">
-            <div id="header-title" class="unselectable">- ZC's Online Emporium -</div>
+        <div class="header" id="header">
+            <h1 class="header-title" id="header-title">
+                - ZC's Online Emporium -
+            </h1>
         </div>
 
-        <div id="game-start-window" class="hidden">
-            <div class="start-window-button-secondary unselectable" onclick="closeStartWindow()">« Close »</div>
-            <div id="start-window-icon"></div>
-            <div id="start-window-tags" class="unselectable"></div>
+        <div class="main-content-container">
+
+            <div class="background-container">
+                <div class="bg-layer-1"></div>
+                <div class="bg-layer-2"></div>
+                <div class="bg-layer-3"></div>
+            </div>
+
+            <aside class="sidebar">
+                <input class="search-bar" id="search-bar" type="text" placeholder="Search..." maxlength="36" autocomplete="off">
+
+                <h2 class="sidebar-label">
+                    Discover
+                </h2>
+                <div class="nav-container" id="discover-container"></div>
+
+                <h2 class="sidebar-label">
+                    Genres
+                </h2>
+                <div class="nav-container" id="genre-container"></div>
+
+                <p class="theme-cycle-label" id="theme-cycle-label"></p>
+                <button class="theme-cycle-button" id="theme-cycle-button" type="button"></button>
+                <p class="theme-cycle-text" id="theme-cycle-text">Click to change theme.</p>
+
+                <span class="info-container">
+                    v.1.0.4<br>
+                    ZC's Emporium
+                </span>
+            </aside>
+            
+            <div class="library-container">
+                <h3 class="library-header" id="library-header">
+                    All Games
+                </h3>
+                <div class="icon-container" id="icon-container"></div>
+                <footer class="footer">
+                    <a class="contact-text" href="https://forms.gle/TALuzCXY8oMQrTiV7" target="_blank">▶ Contact ◀</a>
+                    <p class="copyright-text">
+                        © 2026 Zane W. Clark.
+                    </p>
+                </footer>
+            </div>
+        </div>
+
+        <div class="launcher-window hidden" id="launcher-window">
+            <div class="launcher-divider"></div>
+
+            <h4 class="launcher-title" id="launcher-title"></h4>
+
+            <img class="launcher-icon" id="launcher-icon">
+            <p class="launcher-tags" id="launcher-tags"></p>
+
+            <div class="launcher-divider"></div>
+
+            <button class="launcher-button-primary" id="launcher-launch-button" type="button">[ Launch ]</button>
+
+            <div class="launcher-divider"></div>
+            
+            <button class="launcher-button-secondary" id="launcher-newtab" type="button">▶ open in new tab ◀</button>
+            <button class="launcher-button-secondary" id="launcher-newwindow" type="button">▶ open in new window ◀</button>
+
+            <div class="launcher-divider"></div>
+
+            <button class="launcher-button-secondary" id="launcher-close-button" type="button">« Close »</button>
+
+            <div class="launcher-divider"></div>
+        </div>
+
+        <div class="player-container hidden" id="player-container">
+            <div class="player-header">
+                <h1 class="player-header-title" id="header-title">
+                    - ZC's Online Emporium -
+                </h1>
+            </div>
+
+            <iframe class="game-frame" id="game-frame"></iframe>
+
+            <div class="player-toolbar">
+                <button class="player-toolbar-button" id="player-close-button" type="button">×</button>
+
+                <button class="player-toolbar-button" id="player-zoom-out-button" type="button">-</button>
+
+                <button class="player-game-title" id="player-game-title" type="button"></button>
+
+                <button class="player-toolbar-button" id="player-zoom-in-button" type="button">+</button>
+
+                <button class="player-toolbar-button" id="player-fullscreen-button" type="button">[]</button>
+            </div>
+        </div>
+
+        <!--
+        <div class="game-start-window hidden" id="game-start-window">
+            <div class="start-window-button-secondary unselectable" onclick="closeStartWindow()">
+                « Close »
+            </div>
+
+            <div class="start-window-icon" id="start-window-icon"></div>
+            <div class="start-window-tags" id="start-window-tags"></div>
             <div class="start-window-button-primary unselectable" onclick="launchGame()">[ Launch ]</div>
             <div class="start-window-button-secondary unselectable" onclick="openInNewTab()">▶ open in new tab ◀</div>
             <div class="start-window-button-secondary unselectable" onclick="openInWindow()">▶ open in new window ◀</div>
         </div>
 
-        <div id="game-frame-container" class="hidden">
-            <iframe id="game-frame"></iframe>
+        <div class="game-frame-container hidden" id="game-frame-container">
+            <iframe class="game-frame" id="game-frame"></iframe>
         </div>
 
-        <div id="toolbar" class="hidden">
-            <div id="game-close-button" class="toolbar-button unselectable"
-                onclick="closeGame()">×</div>
-            <div id="game-zoom-out" class="toolbar-button unselectable"
-                onclick="zoomGameOut()">-</div>
+        <div class="toolbar hidden" id="toolbar">
+            <div class="game-close-button unselectable" id="game-close-button" onclick="closeGame()">×</div>
+            <div class="game-zoom-out unselectable" id="game-zoom-out" onclick="zoomGameOut()">-</div>
 
-            <div id="game-toolbar-title" class="unselectable"></div>
+            <div class="game-toolbar-title unselectable" id="game-toolbar-title"></div>
 
-            <div id="game-zoom-in" class="toolbar-button unselectable"
-                onclick="zoomGameIn()">+</div>
-            <div id="game-close-button" class="toolbar-button unselectable"
-                style="font-size: clamp(18px, 1.125vw, 54px);" onclick="toggleFullscreen()">[]</div>
+            <div class="game-zoom-in unselectable" id="game-zoom-in" onclick="zoomGameIn()">+</div>
+            <div class="game-close-button unselectable" id="game-close-button" onclick="toggleFullscreen()">[]</div>
         </div>
 
-        <div class="sidebar">
-            <input id="search-bar" type="text" placeholder="Search...", autocomplete="off">
-            <div class="sidebar-label unselectable">Discover</div>
-            <div class="nav-container" id="discovery-container"></div>
-            <div class="sidebar-label unselectable">Genres</div>
-            <div class="nav-container" id="genre-container"></div>
-            <div class="info-container unselectable">
-                v.1.0.3<br>
-                ZC's Emporium
-            </div>
+        <div class="welcome" id="welcome">
+            Welcome to the Emporium!
         </div>
-
-        <div id="welcome">Welcome to the Emporium!</div>
-        
-        <div id="library-container">
-            <div id="icon-container"></div>
-        </div>
-
+        -->
+        <!--
         <div class="footer">
             <a href="https://forms.gle/TALuzCXY8oMQrTiV7" target="_blank">▶ Contact ◀</a>
-            <div>
+            <p>
                 © 2026 Zane W. Clark.
-            </div>
+            </p>
         </div>
+        -->
         
-        <script src="script.js" defer></script>
+        <script type="module" src="./src/main.js"></script>
     </body>
 </html>

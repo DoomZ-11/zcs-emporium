@@ -1,0 +1,134 @@
+@keyframes bg-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: var(--bg-scale) 0;
+    }
+}
+
+@keyframes pulse-letter-spacing {
+    0%, 100% {
+        letter-spacing: 0;
+    }
+    50% {
+        letter-spacing: 0.05rem;
+    }
+}
+
+@keyframes vertical-pulse {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-0.1rem);
+    }
+}
+
+@keyframes pulse-scale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes theme-button-shake {
+    0%, 100% {
+        transform:
+            rotate(0deg)
+            scale(1);
+    }
+    33% {
+        transform:
+            rotate(-30deg)
+            scale(1.1);
+    }
+    66% {
+        transform:
+            rotate(30deg)
+            scale(1.1);
+    }
+}
+
+@keyframes y-scale-appear {
+    from {
+        opacity: 0.5;
+        transform: scaleY(0.001);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+@keyframes y-scale-disappear {
+    from {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+    to {
+        opacity: 0;
+        transform: scaleY(0.001);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes rainbow-gradient-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: var(--rainbow-scale) 0;
+    }
+}
+
+.pulse-scale {
+    animation: pulse-scale 0.25s ease-in-out;
+}
+
+.theme-button-shake {
+    animation: theme-button-shake 0.25s ease;
+}
+
+.launcher-open {
+    animation: y-scale-appear 0.25s ease-in-out;
+}
+
+.launcher-close {
+    animation: y-scale-disappear 0.25s ease-in-out;
+}
+
+.overlay-fade-in {
+    animation: fade-in 0.25s ease-out;
+}
+
+.overlay-fade-out {
+    animation: fade-out 0.25s ease-in;
+}
+
+.greeting-fade-in {
+    animation: fade-in 0.25s ease-out;
+}
+
+.greeting-fade-out {
+    animation: fade-out 0.25s ease-in;
+}

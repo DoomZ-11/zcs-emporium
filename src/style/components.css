@@ -1,0 +1,602 @@
+/* --- Header --- */
+
+.header-title {
+    font-size: clamp(0.9rem, 1.25vw, 4.5rem);
+    text-align: center;
+
+    font-family: 'PressStart2P', monospace;
+
+    color: var(--text-color-primary);
+
+    text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
+}
+
+/* --- Sidebar --- */
+
+.sidebar-label {
+    display: flex;
+
+    position: relative;
+
+    margin: 1vw 1vh 0 1vh;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.75rem, 1vw, 5rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
+    text-align: left;
+
+    letter-spacing: 0.1rem;
+
+    z-index: 13;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    gap: 1vh 0;    
+    padding: 1vh 0.75vw;
+    margin-top: var(--border-width);
+
+    width: 100%;
+    height: auto;
+
+    border-top: var(--border) var(--border-width) solid;
+    border-bottom: var(--border) var(--border-width) solid;
+
+    background: #00000025;
+
+    overflow-x: hidden;
+    white-space: nowrap;
+
+    align-content: flex-start;
+
+    z-index: 12;
+}
+
+.nav-link {
+    display: flex;
+
+    position: relative;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.45rem, 0.6vw, 3.75rem);
+
+    color: var(--text-color-secondary);
+
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
+    text-align: left;
+
+    transition: 
+        transform 0.075s ease-out,
+        opacity 0.075s ease-in-out,
+        color 0.075s ease-in-out;
+
+    align-items: flex-start;
+
+    cursor: pointer;
+
+    z-index: 13;
+}
+
+.nav-link:hover {
+    transform: translateX(0.75rem);
+
+    color: var(--text-color-primary);
+}
+
+.nav-link:active {
+    opacity: 0.5;
+}
+
+.search-bar {
+    position: relative;
+
+    padding-left: 0.5vw;
+    margin: 0;
+
+    width: 100%;
+    min-height: 5vh;
+
+    bottom: 0;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.6rem, 0.9vw, 4.75rem);
+
+    color: var(--text-color-secondary);
+
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
+    text-align: left;
+
+    border-bottom: var(--border) var(--border-width) solid;
+
+    overflow-x: hidden;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1vw 1vh;
+
+    width: 100%;
+    flex: 1;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.5rem, 0.75vw, 4rem);
+
+    color: var(--text-color-secondary);
+
+    text-align: left;
+
+    line-height: 1.2em;
+
+    justify-content: flex-end;
+}
+
+.theme-cycle-label {
+    display: flex;
+
+    position: relative;
+
+    margin: 1.5vh 0 1.5vh 0.75vw;
+
+    width: auto;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.65rem, 0.9vw, 4.75rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
+    text-align: left;
+
+    align-self: flex-start;
+}
+
+.theme-cycle-text {
+    display: flex;
+
+    position: relative;
+
+    margin: 2.5vh 0 1vh 1vw;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.4rem, 0.5vw, 2.5rem);
+
+    color: var(--text-color-secondary);
+
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.theme-cycle-button {
+    margin-left: 1vw;
+
+    width: clamp(1.5rem, 2.5vw, 12rem);
+    aspect-ratio: 1;
+
+    background: var(--primary);
+
+    border: var(--border) var(--border-width) solid;
+
+    box-shadow: var(--shadow-dark) 0.5rem 0.5rem 0;
+
+    align-self: flex-start;
+
+    cursor: pointer;
+}
+
+/* --- Library --- */
+
+.library-header {
+    display: flex;
+    flex-direction: row;
+
+    margin: 1rem auto;
+
+    width: 100%;
+
+    font-size: clamp(1.25rem, 1.5vw, 5rem);
+    font-family: 'PressStart2P', monospace;
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-light) 0.125em 0.125em 0;
+    text-align: center;
+
+    align-items: center;
+
+    animation: pulse-letter-spacing 2.5s infinite ease-in-out;
+
+    scroll-margin-top: 9999px;
+}
+
+.library-header::before,
+.library-header::after {
+    content: "";
+
+    display: block;
+
+    margin-inline: 1.5rem;
+
+    flex: 1;
+    min-width: 0;
+    height: var(--border-width);
+
+    background: var(--text-color-primary);
+    box-shadow: var(--shadow-light) 0.125em 0.125em 0;
+}
+
+/* --- Icons --- */
+
+.icon-card {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    width: 1fr;
+    height: auto;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: transform 0.1s ease-in-out;
+
+    z-index: 5;
+}
+
+.icon-card:hover {
+    transform: translateY(-8px) scale(1.025);
+}
+
+.icon-image-container {
+    position: relative;
+
+    padding: var(--border-width);
+
+    width: 100%;
+    aspect-ratio: 1;
+
+    inset: 1;
+
+    background: #000000;
+
+    border: var(--card-border) var(--border-width) solid;
+
+    box-shadow: var(--shadow-light) var(--border-width) var(--border-width) 0;
+}
+
+.icon-image {
+    display: block;
+
+    position: block;
+
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.icon-title {
+    margin-top: 1em;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.5rem, 1vw, 2.5rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: 0.15em 0.15em 0 var(--shadow-light);
+
+    text-align: center;
+}
+
+/* --- Footer --- */
+
+.contact-text {
+    font-family: 'PressStart2P', monospace;
+    font-size: 1rem;
+
+    color: var(--text-color-secondary);
+
+    text-shadow: var(--shadow-dark) 0.125rem 0.125rem 0;
+}
+
+.contact-text:hover {
+    text-decoration: underline;
+}
+
+.copyright-text {
+    font-family: 'PressStart2P', monospace;
+    font-size: 1rem;
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.125rem 0.125rem 0;
+}
+
+/* --- Game Launcher --- */
+
+.launcher-divider {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.75rem auto;
+
+    height: var(--border-width);
+    min-height: var(--border-width);
+    width: 90%;
+
+    background: var(--border);
+    
+    box-shadow: var(--shadow-dark) calc(0.5 * var(--border-width)) calc(0.5 * var(--border-width));
+}
+
+.launcher-title {
+    margin-inline: 2.5rem;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(1.5rem, 1.5vw, 2rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1em 0.1em 0;
+    text-align: center;
+
+    text-wrap: wrap;
+
+    align-self: center;
+}
+
+.launcher-button-primary {
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(2rem, 2vw, 2.5rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1em 0.1em 0;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: 
+        color 0.1s ease-out,
+        letter-spacing 0.25s ease-out;
+
+    align-self: center;
+}
+
+.launcher-button-primary:hover {
+    color: var(--text-color-secondary);
+
+    letter-spacing: 0.2rem;
+}
+
+.launcher-button-secondary {
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(1rem, 1vw, 1.1rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: 
+        color 0.1s ease-out,
+        letter-spacing 0.25s ease-out;
+}
+
+.launcher-button-secondary:hover {
+    color: var(--text-color-secondary);
+
+    letter-spacing: 0.1rem;
+}
+
+.launcher-icon {
+    display: block;
+
+    width: 50%;
+    aspect-ratio: 1;
+
+    box-shadow: var(--shadow-dark) 5px 5px 0;
+}
+
+.launcher-tags {
+    padding: 4px 10%;
+
+    width: 80%;
+    height: auto;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(0.9rem, 0.9vw, 1rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.2rem 0.2rem 0;
+    text-align: center;
+
+    white-space: wrap;
+}
+
+/* --- Player --- */
+
+.player-header {
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+
+    flex: 0 0 8vh;
+    width: 100%;
+
+    background: var(--primary);
+    border-bottom: var(--border) var(--border-width) solid;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    white-space: nowrap;
+
+    z-index: 155;
+
+    transition: background-color 0.25s ease-out;
+}
+
+.player-header-title {
+    font-size: clamp(0.9rem, 1.25vw, 4.5rem);
+    text-align: center;
+
+    font-family: 'PressStart2P', monospace;
+
+    color: var(--text-color-primary);
+
+    text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
+}
+
+.game-frame {
+    flex: 1;
+
+    color: #ffffff;
+
+    z-index: 155;
+}
+
+.player-toolbar {
+    display: flex;
+
+    position: relative;
+
+    margin-top: auto;
+
+    flex: 0 0 4vh;
+    width: 100%;
+
+    background: var(--primary);
+
+    border-top: var(--border) var(--border-width) solid;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 155;
+}
+
+.player-game-title {
+    display: flex;
+
+    flex: 0 0 auto;
+    padding: 0 1em;
+
+    width: auto;
+    height: 100%;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(1rem, 1.125vw, 3rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1em 0.1em 0;
+    text-align: center;
+
+    background: var(--primary);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.player-toolbar-button {
+    display: flex;
+
+    flex: 0 0 auto;
+    
+    height: 100%;
+    aspect-ratio: 1.1;
+
+    font-family: 'PressStart2P', monospace;
+    font-size: clamp(1rem, 1.125vw, 3rem);
+
+    color: var(--text-color-primary);
+
+    text-shadow: var(--shadow-dark) 0.1em 0.1em 0;
+    text-align: center;
+
+    border-inline: var(--border) var(--border-width) solid;
+
+    background: var(--primary);
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.1s ease-in-out,
+        font-weight 0.1s ease-out;
+}
+
+.player-toolbar-button:hover {
+    font-weight: bolder;
+    background: var(--secondary);
+}
+
+.player-toolbar-button + .player-toolbar-button {
+    margin-left: calc(-1 * var(--border-width));
+}
+
+/* --- Background --- */
+
+.bg-layer-1,
+.bg-layer-2,
+.bg-layer-3 {
+    position: fixed;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    image-rendering: pixelated;
+
+    pointer-events: none;
+}
+
+.bg-layer-1 {
+    background: url('../../images/img_bg_layer1.png');
+    background-size: var(--bg-scale) var(--bg-scale);
+    background-repeat: repeat;
+
+    animation: bg-scroll 20s linear infinite;
+
+    z-index: -12;
+}
+
+.bg-layer-2 {
+    background: url('../../images/img_bg_layer2.png');
+    background-size: var(--bg-scale) var(--bg-scale);
+    background-repeat: repeat;
+
+    animation: bg-scroll 10s linear infinite;
+
+    z-index: -11;
+}
+
+.bg-layer-3 {
+    background: url('../../images/img_bg_layer3.png');
+    background-size: var(--bg-scale) var(--bg-scale);
+    background-repeat: repeat;
+
+    animation: bg-scroll 5s linear infinite;
+
+    z-index: -10;
+}
