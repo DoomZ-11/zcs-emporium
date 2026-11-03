@@ -10,7 +10,7 @@
 
     text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
 
-    animation: pulse-letter-spacing 2s infinite ease-in-out;
+    animation: pulse-letter-spacing 8s infinite ease-in-out;
 }
 
 /* --- Sidebar --- */
@@ -465,7 +465,7 @@
 
     text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
 
-    animation: pulse-letter-spacing 2s infinite ease-in-out;
+    animation: pulse-letter-spacing 8s infinite ease-in-out;
 }
 
 .game-frame {
