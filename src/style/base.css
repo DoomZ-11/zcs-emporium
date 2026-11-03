@@ -32,15 +32,12 @@
 
     /* Element Scale */
     --bg-scale: 2048px;
-    --border-width: 0.2rem;
+    --border-width: 0.4rem;
 
     /* Scrollbar */
     --scrollbar-color: #707070;
     --scrollbar-highlighted: #aaaaaa;
     --scrollbar-selected: #656565;
-
-    /* Rainbow Scroll */
-    --rainbow-scale: 1024px;
 }
 
 /* --- Global --- */
