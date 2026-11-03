@@ -9,6 +9,8 @@
     color: var(--text-color-primary);
 
     text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
+
+    animation: pulse-letter-spacing 2s infinite ease-in-out;
 }
 
 /* --- Sidebar --- */
@@ -65,7 +67,7 @@
     position: relative;
 
     font-family: 'PressStart2P', monospace;
-    font-size: clamp(0.45rem, 0.6vw, 3.75rem);
+    font-size: clamp(0.6rem, 0.75vw, 3.9rem);
 
     color: var(--text-color-secondary);
 
@@ -167,7 +169,7 @@
     margin: 2.5vh 0 1vh 1vw;
 
     font-family: 'PressStart2P', monospace;
-    font-size: clamp(0.4rem, 0.5vw, 2.5rem);
+    font-size: clamp(0.6rem, 0.75vw, 3.9rem);
 
     color: var(--text-color-secondary);
 
@@ -462,6 +464,8 @@
     color: var(--text-color-primary);
 
     text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
+
+    animation: pulse-letter-spacing 2s infinite ease-in-out;
 }
 
 .game-frame {
