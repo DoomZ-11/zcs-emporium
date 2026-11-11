@@ -1,6 +1,9 @@
 import { getGames } from "./gameData.js";
 import { openLauncherWindow, setCurrentGame } from "./gameLauncher.js";
 
+const MAX_RETRIES = 3;
+const RETRY_DELAY = 1000;
+
 let iconData = [];
 
 export async function loadIcons() {
@@ -45,10 +48,32 @@ function createIcon(game) {
 
     const image = document.createElement("img");
 
-    image.src = image.src = new URL(`../icons/${game.icon}`, import.meta.url).href;
+    const imageUrl = new URL(`../icons/${game.icon}`, import.meta.url).href;
+
+    image.src = imageUrl;
     image.alt = game.title;
     image.loading = "lazy";
     image.classList.add("icon-image");
+
+    let retryAttempts = 0;
+
+    image.addEventListener("error", () => {
+        if (retryAttempts >= MAX_RETRIES) {
+            image.classList.add("failed");
+
+            console.warn(`Failed to load icon: ${game.title}`);
+
+            return;
+        }
+
+        retryAttempts++;
+
+        const delay = RETRY_DELAY * (2 ** (retryAttempts - 1));
+
+        setTimeout(() => {
+            image.src = imageUrl;
+        }, delay);
+    });
 
     imageContainer.append(image);
 

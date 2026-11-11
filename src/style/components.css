@@ -1,14 +1,14 @@
 /* --- Header --- */
 
 .header-title {
-    font-size: clamp(0.9rem, 1.25vw, 4.5rem);
+    font-size: 1rem;
     text-align: center;
 
     font-family: 'PressStart2P', monospace;
 
     color: var(--text-color-primary);
 
-    text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
+    text-shadow: 0.15em 0.15em 0 var(--shadow-dark);
 
     animation: pulse-letter-spacing 8s infinite ease-in-out;
 }
@@ -86,6 +86,8 @@
     z-index: 13;
 }
 
+
+
 .nav-link:hover {
     transform: translateX(0.75rem);
 
@@ -93,6 +95,8 @@
 }
 
 .nav-link:active {
+    transform: translateX(1rem) scale(1.1);
+
     opacity: 0.5;
 }
 
@@ -137,7 +141,7 @@
     text-align: left;
 
     line-height: 1.2em;
-
+    
     justify-content: flex-end;
 }
 
@@ -259,6 +263,8 @@
 
 .icon-card:hover {
     transform: translateY(-8px) scale(1.025);
+
+    filter: brightness(1.15);
 }
 
 .icon-image-container {
@@ -425,7 +431,7 @@
 
     color: var(--text-color-primary);
 
-    text-shadow: var(--shadow-dark) 0.2rem 0.2rem 0;
+    text-shadow: var(--shadow-dark) 0.1rem 0.1rem 0;
     text-align: center;
 
     white-space: wrap;
@@ -439,7 +445,7 @@
 
     position: relative;
 
-    flex: 0 0 8vh;
+    flex: 0 0 4rem;
     width: 100%;
 
     background: var(--primary);
@@ -456,14 +462,14 @@
 }
 
 .player-header-title {
-    font-size: clamp(0.9rem, 1.25vw, 4.5rem);
+    font-size: 1rem;
     text-align: center;
 
     font-family: 'PressStart2P', monospace;
 
     color: var(--text-color-primary);
 
-    text-shadow: 0.1em 0.1em 0 var(--shadow-dark);
+    text-shadow: 0.15em 0.15em 0 var(--shadow-dark);
 
     animation: pulse-letter-spacing 8s infinite ease-in-out;
 }
@@ -483,7 +489,7 @@
 
     margin-top: auto;
 
-    flex: 0 0 5.5vh;
+    flex: 0 0 1rem;
     width: 100%;
 
     background: var(--primary);
@@ -506,7 +512,7 @@
     height: 100%;
 
     font-family: 'PressStart2P', monospace;
-    font-size: clamp(1rem, 1.125vw, 3rem);
+    font-size: 1rem;
 
     color: var(--text-color-primary);
 
@@ -528,7 +534,7 @@
     aspect-ratio: 1.1;
 
     font-family: 'PressStart2P', monospace;
-    font-size: clamp(1rem, 1.125vw, 3rem);
+    font-size: 1rem;
 
     color: var(--text-color-primary);
 

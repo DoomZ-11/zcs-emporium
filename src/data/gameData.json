@@ -127,6 +127,16 @@
     "isExclusive": false
   },
   {
+    "title": "A Difficult Game About Climbing",
+    "icon": "adifficultgameaboutclimbing.png",
+    "file": "adifficultgameaboutclimbing.html",
+    "tags": [
+      "platformer"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "Adventure Capitalist",
     "icon": "adventurecapatalist.png",
     "file": "adventurecapatalist.html",
@@ -248,12 +258,34 @@
     "isExclusive": false
   },
   {
+    "title": "Angry Birds",
+    "icon": "angrybirds.png",
+    "file": "angrybirds.html",
+    "tags": [
+      "puzzle",
+      "physics"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "Angry Birds Space",
     "icon": "angrybirdsspace.png",
     "file": "angrybirdsspace.html",
     "tags": [
       "puzzle",
       "physics"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
+    "title": "Animal Crossing",
+    "icon": "animalcrossing.png",
+    "file": "animalcrossing.html",
+    "tags": [
+      "adventure",
+      "sandbox"
     ],
     "isFeatured": false,
     "isExclusive": false
@@ -298,6 +330,16 @@
     "tags": [
       "platformer",
       "action"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
+    "title": "A Small World Cup",
+    "icon": "asmallworldcup.png",
+    "file": "asmallworldcup.html",
+    "tags": [
+      "sports"
     ],
     "isFeatured": false,
     "isExclusive": false
@@ -1177,6 +1219,26 @@
     "isExclusive": false
   },
   {
+    "title": "FIFA 10",
+    "icon": "fifa10.png",
+    "file": "fifa10.html",
+    "tags": [
+      "sports"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
+    "title": "FIFA 11",
+    "icon": "fifa11.png",
+    "file": "fifa11.html",
+    "tags": [
+      "sports"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "Fih",
     "icon": "fih.png",
     "file": "fih.html",
@@ -1376,6 +1438,17 @@
     "isExclusive": false
   },
   {
+    "title": "Get Yoked",
+    "icon": "getyoked.png",
+    "file": "getyoked.html",
+    "tags": [
+      "roguelike",
+      "simulation"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "God's Flesh",
     "icon": "godsflesh.png",
     "file": "godsflesh.html",
@@ -1424,7 +1497,7 @@
       "adventure",
       "action"
     ],
-    "isFeatured": false,
+    "isFeatured": true,
     "isExclusive": false
   },
   {
@@ -1649,6 +1722,16 @@
     "isExclusive": false
   },
   {
+    "title": "I Have No Mouth and I Must Scream",
+    "icon": "ihavenomouth.png",
+    "file": "ihavenomouth.html",
+    "tags": [
+      "classic"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "Impossible Quiz",
     "icon": "impossiblequiz.png",
     "file": "impossiblequiz.html",
@@ -1825,7 +1908,7 @@
     "file": "lookoutside.html",
     "tags": [
       "horror",
-      "advenure"
+      "adventure"
     ],
     "isFeatured": false,
     "isExclusive": false
@@ -1923,6 +2006,16 @@
       "sandbox"
     ],
     "isFeatured": true,
+    "isExclusive": false
+  },
+  {
+    "title": "Minecraft Story Mode",
+    "icon": "minecraftstorymode.png",
+    "file": "minecraftstorymode.html",
+    "tags": [
+      "action"
+    ],
+    "isFeatured": false,
     "isExclusive": false
   },
   {
@@ -2174,6 +2267,16 @@
     "isExclusive": false
   },
   {
+    "title": "Peak",
+    "icon": "peak.png",
+    "file": "peak.html",
+    "tags": [
+      "platformer"
+    ],
+    "isFeatured": true,
+    "isExclusive": false
+  },
+  {
     "title": "Peggle",
     "icon": "peggle.png",
     "file": "peggle.html",
@@ -2250,7 +2353,7 @@
     "isExclusive": false
   },
   {
-    "title": "Polytrack}",
+    "title": "Polytrack",
     "icon": "polytrack.png",
     "file": "polytrack.html",
     "tags": [
@@ -2277,6 +2380,7 @@
     "file": "powerputt.html",
     "tags": [
       "platformer",
+      "sports",
       "arcade"
     ],
     "isFeatured": false,
@@ -2458,6 +2562,16 @@
     "isExclusive": false
   },
   {
+    "title": "ROAM0120",
+    "icon": "roam0120.png",
+    "file": "roam0120.html",
+    "tags": [
+      "horror"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "Rooftop Snipers",
     "icon": "rooftopsnipers.png",
     "file": "rooftopsnipers.html",
@@ -2610,7 +2724,7 @@
       "racing",
       "arcade"
     ],
-    "isFeatured": false,
+    "isFeatured": true,
     "isExclusive": false
   },
   {
@@ -2723,6 +2837,17 @@
     "isExclusive": false
   },
   {
+    "title": "The Oregon Trail",
+    "icon": "oregontrail.png",
+    "file": "oregontrail.html",
+    "tags": [
+      "simulation",
+      "classic"
+    ],
+    "isFeatured": true,
+    "isExclusive": false
+  },
+  {
     "title": "There Is No Game",
     "icon": "thereisnofile.png",
     "file": "thereisnofile.html",
@@ -2778,9 +2903,30 @@
     "isExclusive": false
   },
   {
+    "title": "Traffic Racer",
+    "icon": "trafficracer.png",
+    "file": "trafficracer.html",
+    "tags": [
+      "racing",
+      "action"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
     "title": "Trollface Quest",
     "icon": "trollfacequest.png",
     "file": "trollfacequest.html",
+    "tags": [
+      "puzzle"
+    ],
+    "isFeatured": false,
+    "isExclusive": false
+  },
+  {
+    "title": "Trollface Quest 2",
+    "icon": "trollfacequest2.png",
+    "file": "trollfacequest2.html",
     "tags": [
       "puzzle"
     ],
@@ -2818,6 +2964,17 @@
       "action"
     ],
     "isFeatured": true,
+    "isExclusive": false
+  },
+  {
+    "title": "Volley Random",
+    "icon": "volleyrandom.png",
+    "file": "volleyrandom.html",
+    "tags": [
+      "sports",
+      "arcade"
+    ],
+    "isFeatured": false,
     "isExclusive": false
   },
   {
